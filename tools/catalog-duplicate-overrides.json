@@ -1,0 +1,21 @@
+{
+  "8181329": {"canonicalID": 53189, "reason": "Gnomeragon 1 matches legacy Gnomeragon 01 Zone"},
+  "8181331": {"canonicalID": 53190, "reason": "Gnomeragon 2 matches legacy Gnomeragon 02 Zone"},
+  "8195263": {"canonicalID": 53739, "reason": "Dwarves Tavern 1A matches legacy Dwarf Tavern 1A"},
+  "8195265": {"canonicalID": 53740, "reason": "Dwarves Tavern 1B matches legacy Dwarf Tavern 1B"},
+  "8195267": {"canonicalID": 53741, "reason": "Dwarves Tavern 2A matches legacy Dwarf Tavern 2A"},
+  "8195269": {"canonicalID": 53742, "reason": "Dwarves Tavern 2B matches legacy Dwarf Tavern 2B"},
+  "8195271": {"canonicalID": 53743, "reason": "Dwarves Tavern 3 matches legacy Dwarf Tavern 3"},
+  "8180969": {"canonicalID": 53194, "reason": "Ironforge Walking 3 matches legacy Ironforge Walking 03 (Glenn)"},
+  "8180866": {"canonicalID": 53202, "reason": "Stormwind numbered sequence 1 matches legacy Stormwind 01 Moment"},
+  "8180868": {"canonicalID": 53203, "reason": "Stormwind numbered sequence 2 matches legacy Stormwind 02 Moment"},
+  "8180870": {"canonicalID": 53204, "reason": "Stormwind numbered sequence 3 matches legacy Stormwind 03 Moment"},
+  "8180872": {"canonicalID": 53205, "reason": "Stormwind 4 matches legacy Stormwind 04 Zone"},
+  "8180874": {"canonicalID": 53206, "reason": "Stormwind 5 matches legacy Stormwind 05 Zone"},
+  "8180876": {"canonicalID": 53207, "reason": "Stormwind 6 matches legacy Stormwind 06 Zone"},
+  "8180878": {"canonicalID": 53208, "reason": "Stormwind 7 matches legacy Stormwind 07 Zone"},
+  "8180880": {"canonicalID": 53209, "reason": "Stormwind 8 matches legacy Stormwind 08 Zone"},
+  "8181003": {"canonicalID": 53216, "reason": "Undercity 1 matches legacy Undercity 01 Zone"},
+  "8181005": {"canonicalID": 53217, "reason": "Undercity 2 matches legacy Undercity 02 Zone"},
+  "8181007": {"canonicalID": 53218, "reason": "Undercity 3 matches legacy Undercity 03 Zone"}
+}

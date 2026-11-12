@@ -1,7 +1,7 @@
 -- Core: initialization, catalog access, playback, preferences and slash commands.
 local addonName, ns = ...
 
-ns.VERSION = "0.7.1-forever-alpha.2"
+ns.VERSION = "0.7.1-forever-alpha.3"
 ns.AUTHOR = "SCAN | Kilobytes Development"
 ns.WEBSITE = "www.kilobytes.dev"
 ns.ICON = "Interface\\Icons\\inv_holiday_brewfestbuff_01"
@@ -35,7 +35,8 @@ function ns.Notify()
 end
 
 function ns.GetTrack(key)
-    return ns.TracksByKey and ns.TracksByKey[key]
+    local canonical = ns.TrackKeyAliases and ns.TrackKeyAliases[key] or key
+    return ns.TracksByKey and ns.TracksByKey[canonical]
 end
 
 function ns.GetSelectedTrack()
@@ -60,8 +61,9 @@ function ns.GetFilteredCatalog(query)
 end
 
 function ns.SelectTrack(key)
-    if not ns.GetTrack(key) then return false end
-    ns.DB.selectedTrack = key
+    local track = ns.GetTrack(key)
+    if not track then return false end
+    ns.DB.selectedTrack = track.key
     ns.Notify()
     return true
 end
@@ -99,13 +101,19 @@ end
 -- Favorites follow audio IDs so friendly-name updates do not lose saved tracks.
 function ns.IsFavorite(key)
     local track = ns.GetTrack(key)
-    return track ~= nil and ns.DB.favorites[track.fileDataID] == true
+    if not track then return false end
+    for _, fileID in ipairs(ns.FavoriteIDsByKey[track.key]) do
+        if ns.DB.favorites[fileID] == true then return true end
+    end
+    return false
 end
 
 function ns.ToggleFavorite(key)
     local track = ns.GetTrack(key)
     if not track then return false end
-    ns.DB.favorites[track.fileDataID] = not ns.IsFavorite(key) or nil
+    local wasFavorite = ns.IsFavorite(key)
+    for _, fileID in ipairs(ns.FavoriteIDsByKey[track.key]) do ns.DB.favorites[fileID] = nil end
+    if not wasFavorite then ns.DB.favorites[track.fileDataID] = true end
     ns.FavoriteQuery, ns.FavoriteCache = nil, nil
     ns.Notify()
     return true
@@ -115,11 +123,12 @@ function ns.GetFavoriteTracks(query)
     query = (query or ""):lower():match("^%s*(.-)%s*$")
     if query == "favorites" then query = "" end
     if ns.FavoriteQuery == query then return ns.FavoriteCache end
-    local tracks = {}
+    local tracks, seen = {}, {}
     for fileID in pairs(ns.DB.favorites) do
         local track = ns.TracksByFileID[fileID]
-        if track and (query == "" or ns.SearchTextByKey[track.key]:find(query, 1, true)) then
+        if track and not seen[track.key] and (query == "" or ns.SearchTextByKey[track.key]:find(query, 1, true)) then
             tracks[#tracks + 1] = track
+            seen[track.key] = true
         end
     end
     table.sort(tracks, function(a, b)
@@ -311,14 +320,24 @@ function ns.Initialize()
     CancelRecovery()
     loadingScreen, worldEntered = false, false
     ns.TracksByKey, ns.TracksByFileID, ns.SortedCatalog, ns.Expansions, ns.SearchTextByKey = {}, {}, {}, {}, {}
+    ns.FavoriteIDsByKey = {}
     ns.GroupQuery, ns.GroupCache = nil, nil
     ns.FavoriteQuery, ns.FavoriteCache = nil, nil
     for _, track in ipairs(ns.Catalog) do
         ns.TracksByKey[track.key] = track
         ns.TracksByFileID[track.fileDataID] = track
+        ns.FavoriteIDsByKey[track.key] = {track.fileDataID}
         ns.SortedCatalog[#ns.SortedCatalog + 1] = track
         ns.Expansions[track.expansion] = true
         ns.SearchTextByKey[track.key] = (track.zone .. " " .. track.title .. " " .. track.expansion):lower()
+    end
+    for aliasID, canonicalID in pairs(ns.FileIDAliases or {}) do
+        local track = ns.TracksByFileID[canonicalID]
+        if track and aliasID ~= canonicalID and not ns.TracksByFileID[aliasID] then
+            ns.TracksByFileID[aliasID] = track
+            local ids = ns.FavoriteIDsByKey[track.key]
+            ids[#ids + 1] = aliasID
+        end
     end
     table.sort(ns.SortedCatalog, function(a, b)
         local az, bz = a.zone:lower(), b.zone:lower()
@@ -344,6 +363,8 @@ function ns.Initialize()
     if not ns.GetTrack(ns.DB.selectedTrack) then
         ns.DB.selectedTrack = ns.GetTrack(ns.DEFAULT_TRACK_KEY) and ns.DEFAULT_TRACK_KEY
             or (ns.SortedCatalog[1] and ns.SortedCatalog[1].key)
+    else
+        ns.DB.selectedTrack = ns.GetTrack(ns.DB.selectedTrack).key
     end
     if type(ns.DB.collapsedExpansions) ~= "table" then
         ns.DB.collapsedExpansions = {}

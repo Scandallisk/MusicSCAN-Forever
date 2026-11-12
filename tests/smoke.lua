@@ -165,29 +165,33 @@ local events
 for _,f in ipairs(frames) do if f.events.ADDON_LOADED then events=f;break end end
 assert(events)
 events.scripts.OnEvent(events,"ADDON_LOADED","MusicSCAN")
-assert(ns.VERSION=="0.7.1-forever-alpha.2" and #ns.Catalog==570)
-assert(ns.GetSelectedTrack().expansion=="Original World of Warcraft")
+assert(ns.VERSION=="0.7.1-forever-alpha.3" and #ns.Catalog==415)
+assert(ns.GetSelectedTrack().expansion=="World of Warcraft: Forever")
 assert(not ns.State.playing and #engineCalls==0)
 assert(ns.DB.favorites[936340] and ns.DB.favorites[8158670] and ns.DB.favorites[999999999])
 assert(not ns.DB.favorites[-1] and not ns.DB.favorites.bad)
 assert(ns.DB.window.width==640 and ns.DB.window.x==35 and ns.DB.minimap.angle==42)
 assert(not ns.DB.collapsedExpansions.Shadowlands)
-local ids,keys,count={},{},0
+local ids,keys,count,originalCount={},{},0,0
 for _,track in ipairs(ns.Catalog) do
     assert(not ids[track.fileDataID] and not keys[track.key])
     ids[track.fileDataID],keys[track.key]=true,true
-    assert(track.expansion=="Original World of Warcraft" or track.expansion=="World of Warcraft: Forever")
+    assert(track.expansion=="World of Warcraft: Forever")
     assert(track.playbackVerified==false)
-    if track.expansion=="World of Warcraft: Forever" then
+    if track.mappingSource=="forever-filename-association" then
         count=count+1
         assert(track.sourceFilename:lower():find("sound/music/forever/",1,true)==1)
         assert(track.key=="music-"..track.fileDataID)
+    else
+        originalCount=originalCount+1
     end
 end
-assert(count==370)
+assert(count==215 and originalCount==200)
 local groups=ns.GetExpansionGroups("")
-assert(#groups==2 and #groups[1].tracks==200 and #groups[2].tracks==370)
-assert(groups[1].name=="Original World of Warcraft" and groups[2].name=="World of Warcraft: Forever")
+assert(#groups==1 and #groups[1].tracks==415)
+assert(groups[1].name=="World of Warcraft: Forever")
+assert(not ns.ExpansionOrder["Original World of Warcraft"])
+assert(#ns.GetFilteredCatalog("Ahn'Qiraj")==18, "17 legacy Ahn'Qiraj tracks plus one additional Forever entry")
 assert(ns.GetTrack("wod-frostfire-magnificent-desolation-h")==nil)
 assert(ns.TracksByFileID[936340]==nil and ns.TracksByFileID[1477339]==nil)
 assert(#ns.GetFilteredCatalog("Hyjal")>=4 and #ns.GetFilteredCatalog("Riverglades")>=5)
@@ -199,7 +203,7 @@ assert(#ns.UI.rows<50, "viewport should keep bounded row frames")
 for _,track in ipairs(ns.Catalog) do ns.DB.favorites[track.fileDataID]=true end
 ns.FavoriteQuery=nil
 local favorites=ns.GetFavoriteTracks("")
-assert(#favorites==570)
+assert(#favorites==415)
 for i=2,#favorites do assert(favorites[i-1].title:lower()<=favorites[i].title:lower()) end
 ns.DB.favorites={[936340]=true,[999999999]=true}
 ns.FavoriteQuery=nil
@@ -207,6 +211,31 @@ assert(#ns.GetFavoriteTracks("")==0)
 local selected=ns.DB.selectedTrack
 ns.ResetPosition()
 assert(ns.DB.selectedTrack==selected and ns.DB.favorites[936340] and ns.DB.favorites[999999999])
+ns.Initialize()
+assert(not ns.State.playing)
+-- Duplicate IDs/keys remain usable without adding browser or Favorite rows.
+local aliasCount=0
+for aliasID,canonicalID in pairs(ns.FileIDAliases) do
+    aliasCount=aliasCount+1
+    local track=ns.TracksByFileID[canonicalID]
+    assert(track and track.fileDataID==canonicalID and not ids[aliasID])
+    assert(ns.TracksByFileID[aliasID]==track)
+    assert(ns.GetTrack("music-"..aliasID)==track)
+    ns.DB.favorites={[aliasID]=true,[canonicalID]=true,[999999999]=true}
+    ns.FavoriteQuery=nil
+    assert(ns.IsFavorite(track.key) and #ns.GetFavoriteTracks("")==1)
+    assert(ns.ToggleFavorite(track.key))
+    assert(not ns.IsFavorite(track.key) and not ns.DB.favorites[aliasID] and not ns.DB.favorites[canonicalID])
+    assert(#ns.GetFavoriteTracks("")==0 and ns.DB.favorites[999999999])
+    ns.DB.favorites[aliasID]=true
+    ns.DB.selectedTrack="music-"..aliasID
+    ns.Initialize()
+    assert(ns.DB.selectedTrack==track.key and ns.DB.favorites[aliasID])
+    assert(ns.IsFavorite(track.key) and #ns.GetFavoriteTracks("")==1)
+    assert(ns.SelectTrack("music-"..aliasID) and ns.DB.selectedTrack==track.key)
+end
+assert(aliasCount==155)
+ns.DB.favorites={[936340]=true,[999999999]=true}
 ns.Initialize()
 assert(not ns.State.playing)
 -- Dispatch real registered lifecycle events; time and the audio engine are mocked.

@@ -1,22 +1,38 @@
 key,title,zone,expansion,fileDataID,sourceFilename,playbackVerified,mappingSource
-music-8176626,Ahn'Qiraj Exterior Walking 1,Ahn'Qiraj,World of Warcraft: Forever,8176626,Sound/Music/Forever/MUS_C_AhnQiraj_Exterior_Walking_1.mp3,False,forever-filename-association
-music-8176628,Ahn'Qiraj Exterior Walking 2,Ahn'Qiraj,World of Warcraft: Forever,8176628,Sound/Music/Forever/MUS_C_AhnQiraj_Exterior_Walking_2.mp3,False,forever-filename-association
-music-8176630,Ahn'Qiraj Exterior Walking 3,Ahn'Qiraj,World of Warcraft: Forever,8176630,Sound/Music/Forever/MUS_C_AhnQiraj_Exterior_Walking_3.mp3,False,forever-filename-association
-music-8176632,Ahn'Qiraj Exterior Walking 4,Ahn'Qiraj,World of Warcraft: Forever,8176632,Sound/Music/Forever/MUS_C_AhnQiraj_Exterior_Walking_4.mp3,False,forever-filename-association
-music-8176671,Ahn'Qiraj Interior 1,Ahn'Qiraj,World of Warcraft: Forever,8176671,Sound/Music/Forever/MUS_C_AhnQiraj_Interior_1.mp3,False,forever-filename-association
-music-8176673,Ahn'Qiraj Interior 2,Ahn'Qiraj,World of Warcraft: Forever,8176673,Sound/Music/Forever/MUS_C_AhnQiraj_Interior_2.mp3,False,forever-filename-association
-music-8176675,Ahn'Qiraj Interior 3,Ahn'Qiraj,World of Warcraft: Forever,8176675,Sound/Music/Forever/MUS_C_AhnQiraj_Interior_3.mp3,False,forever-filename-association
-music-8176681,Ahn'Qiraj Interior Center Room 1,Ahn'Qiraj,World of Warcraft: Forever,8176681,Sound/Music/Forever/MUS_C_AhnQiraj_Interior_Center_Room_1.mp3,False,forever-filename-association
-music-8176683,Ahn'Qiraj Interior Introduction Main,Ahn'Qiraj,World of Warcraft: Forever,8176683,Sound/Music/Forever/MUS_C_AhnQiraj_Interior_Intro_Main.mp3,False,forever-filename-association
-music-8176685,Ahn'Qiraj King Room,Ahn'Qiraj,World of Warcraft: Forever,8176685,Sound/Music/Forever/MUS_C_AhnQiraj_King_Room.mp3,False,forever-filename-association
+music-53261,Ahn Qiraj Exterior Walking 1,Ahn'Qiraj,World of Warcraft: Forever,53261,Sound/music/ZONEMUSIC/AhnQiraj/AhnQirajExteriorWalking1.mp3,False,legacy-folder
+music-53262,Ahn Qiraj Exterior Walking 2,Ahn'Qiraj,World of Warcraft: Forever,53262,Sound/music/ZONEMUSIC/AhnQiraj/AhnQirajExteriorWalking2.mp3,False,legacy-folder
+music-53263,Ahn Qiraj Exterior Walking 3,Ahn'Qiraj,World of Warcraft: Forever,53263,Sound/music/ZONEMUSIC/AhnQiraj/AhnQirajExteriorWalking3.mp3,False,legacy-folder
+music-53264,Ahn Qiraj Exterior Walking 4,Ahn'Qiraj,World of Warcraft: Forever,53264,Sound/music/ZONEMUSIC/AhnQiraj/AhnQirajExteriorWalking4.mp3,False,legacy-folder
+music-53265,Ahn Qiraj Interior 1,Ahn'Qiraj,World of Warcraft: Forever,53265,Sound/music/ZONEMUSIC/AhnQiraj/AhnQirajInterior1.mp3,False,legacy-folder
+music-53266,Ahn Qiraj Interior 2,Ahn'Qiraj,World of Warcraft: Forever,53266,Sound/music/ZONEMUSIC/AhnQiraj/AhnQirajInterior2.mp3,False,legacy-folder
+music-53267,Ahn Qiraj Interior 3,Ahn'Qiraj,World of Warcraft: Forever,53267,Sound/music/ZONEMUSIC/AhnQiraj/AhnQirajInterior3.mp3,False,legacy-folder
+music-53268,Ahn Qiraj Interior Center Room 1,Ahn'Qiraj,World of Warcraft: Forever,53268,Sound/music/ZONEMUSIC/AhnQiraj/AhnQirajInteriorCenterRoom1.mp3,False,legacy-folder
+music-53269,Ahn Qiraj Interior Introduction Main,Ahn'Qiraj,World of Warcraft: Forever,53269,Sound/music/ZONEMUSIC/AhnQiraj/AhnQirajInteriorIntroMain.mp3,False,legacy-folder
+music-53270,Ahn Qiraj King Room,Ahn'Qiraj,World of Warcraft: Forever,53270,Sound/music/ZONEMUSIC/AhnQiraj/AhnQirajKingRoom.mp3,False,legacy-folder
+music-53271,Ahn Qiraj Triangle Room 1,Ahn'Qiraj,World of Warcraft: Forever,53271,Sound/music/ZONEMUSIC/AhnQiraj/AhnQirajTriangleRoom1.mp3,False,legacy-folder
+music-53272,Ahn Qiraj Triangle Room 2,Ahn'Qiraj,World of Warcraft: Forever,53272,Sound/music/ZONEMUSIC/AhnQiraj/AhnQirajTriangleRoom2.mp3,False,legacy-folder
+music-53273,Ahn Qiraj Triangle Room 3,Ahn'Qiraj,World of Warcraft: Forever,53273,Sound/music/ZONEMUSIC/AhnQiraj/AhnQirajTriangleRoom3.mp3,False,legacy-folder
+music-53274,Ahn Qiraj Triangle Room 4,Ahn'Qiraj,World of Warcraft: Forever,53274,Sound/music/ZONEMUSIC/AhnQiraj/AhnQirajTriangleRoom4.mp3,False,legacy-folder
+music-53275,Ahn Qiraj Triangle Room 5,Ahn'Qiraj,World of Warcraft: Forever,53275,Sound/music/ZONEMUSIC/AhnQiraj/AhnQirajTriangleRoom5.mp3,False,legacy-folder
+music-53276,Ahn Qiraj Triangle Room 6,Ahn'Qiraj,World of Warcraft: Forever,53276,Sound/music/ZONEMUSIC/AhnQiraj/AhnQirajTriangleRoom6.mp3,False,legacy-folder
+music-53277,Ahn Qiraj Triangle Room 7,Ahn'Qiraj,World of Warcraft: Forever,53277,Sound/music/ZONEMUSIC/AhnQiraj/AhnQirajTriangleRoom7.mp3,False,legacy-folder
 music-8176687,Ahn'Qiraj Ruins Triangle Room,Ahn'Qiraj,World of Warcraft: Forever,8176687,Sound/Music/Forever/MUS_C_AhnQiraj_Ruins_Triangle_Room.mp3,False,forever-filename-association
-music-8176689,Ahn'Qiraj Triangle Room 1,Ahn'Qiraj,World of Warcraft: Forever,8176689,Sound/Music/Forever/MUS_C_AhnQiraj_Triangle_Room_1.mp3,False,forever-filename-association
-music-8176691,Ahn'Qiraj Triangle Room 2,Ahn'Qiraj,World of Warcraft: Forever,8176691,Sound/Music/Forever/MUS_C_AhnQiraj_Triangle_Room_2.mp3,False,forever-filename-association
-music-8176693,Ahn'Qiraj Triangle Room 3,Ahn'Qiraj,World of Warcraft: Forever,8176693,Sound/Music/Forever/MUS_C_AhnQiraj_Triangle_Room_3.mp3,False,forever-filename-association
-music-8176695,Ahn'Qiraj Triangle Room 4,Ahn'Qiraj,World of Warcraft: Forever,8176695,Sound/Music/Forever/MUS_C_AhnQiraj_Triangle_Room_4.mp3,False,forever-filename-association
-music-8176697,Ahn'Qiraj Triangle Room 5,Ahn'Qiraj,World of Warcraft: Forever,8176697,Sound/Music/Forever/MUS_C_AhnQiraj_Triangle_Room_5.mp3,False,forever-filename-association
-music-8176699,Ahn'Qiraj Triangle Room 6,Ahn'Qiraj,World of Warcraft: Forever,8176699,Sound/Music/Forever/MUS_C_AhnQiraj_Triangle_Room_6.mp3,False,forever-filename-association
-music-8176701,Ahn'Qiraj Triangle Room 7,Ahn'Qiraj,World of Warcraft: Forever,8176701,Sound/Music/Forever/MUS_C_AhnQiraj_Triangle_Room_7.mp3,False,forever-filename-association
+music-53684,Pvp 1,Battlegrounds,World of Warcraft: Forever,53684,Sound/music/ZONEMUSIC/PVP/pvp1.mp3,False,legacy-folder
+music-53685,Pvp 2,Battlegrounds,World of Warcraft: Forever,53685,Sound/music/ZONEMUSIC/PVP/pvp2.mp3,False,legacy-folder
+music-53686,Pvp 3,Battlegrounds,World of Warcraft: Forever,53686,Sound/music/ZONEMUSIC/PVP/pvp3.mp3,False,legacy-folder
+music-53687,Pvp 4,Battlegrounds,World of Warcraft: Forever,53687,Sound/music/ZONEMUSIC/PVP/pvp4.mp3,False,legacy-folder
+music-53688,Pvp 5,Battlegrounds,World of Warcraft: Forever,53688,Sound/music/ZONEMUSIC/PVP/pvp5.mp3,False,legacy-folder
+music-521021,Pvp 6 (Variation 1),Battlegrounds,World of Warcraft: Forever,521021,Sound/music/ZONEMUSIC/PVP/MUS_PVP6_01.mp3,False,legacy-folder
+music-521022,Pvp 6 (Variation 2),Battlegrounds,World of Warcraft: Forever,521022,Sound/music/ZONEMUSIC/PVP/MUS_PVP6_02.mp3,False,legacy-folder
+music-521030,Pvp 7 (Variation 1),Battlegrounds,World of Warcraft: Forever,521030,Sound/music/ZONEMUSIC/PVP/MUS_PVP7_01.mp3,False,legacy-folder
+music-521031,Pvp 7 (Variation 2),Battlegrounds,World of Warcraft: Forever,521031,Sound/music/ZONEMUSIC/PVP/MUS_PVP7_02.mp3,False,legacy-folder
+music-521023,Pvp 7moment 1 (Variation 1),Battlegrounds,World of Warcraft: Forever,521023,Sound/music/ZONEMUSIC/PVP/MUS_PVP7Moment1_01.mp3,False,legacy-folder
+music-521024,Pvp 7moment 1 (Variation 2),Battlegrounds,World of Warcraft: Forever,521024,Sound/music/ZONEMUSIC/PVP/MUS_PVP7Moment1_02.mp3,False,legacy-folder
+music-521025,Pvp 7moment 2 (Variation 1),Battlegrounds,World of Warcraft: Forever,521025,Sound/music/ZONEMUSIC/PVP/MUS_PVP7Moment2_01.mp3,False,legacy-folder
+music-521026,Pvp 7moment 2 (Variation 2),Battlegrounds,World of Warcraft: Forever,521026,Sound/music/ZONEMUSIC/PVP/MUS_PVP7Moment2_02.mp3,False,legacy-folder
+music-521027,Pvp 7moment 3 (Variation 1),Battlegrounds,World of Warcraft: Forever,521027,Sound/music/ZONEMUSIC/PVP/MUS_PVP7Moment3_01.mp3,False,legacy-folder
+music-521028,Pvp 7stinger End (Variation 1),Battlegrounds,World of Warcraft: Forever,521028,Sound/music/ZONEMUSIC/PVP/MUS_PVP7StingerEnd_01.mp3,False,legacy-folder
+music-521029,Pvp 7stinger Introduction (Variation 1),Battlegrounds,World of Warcraft: Forever,521029,Sound/music/ZONEMUSIC/PVP/MUS_PVP7StingerIntro_01.mp3,False,legacy-folder
 music-8158694,Bolderok A,Bolderok,World of Warcraft: Forever,8158694,Sound/Music/Forever/MUS_C60_Bolderok_A.mp3,False,forever-filename-association
 music-8158696,Bolderok B,Bolderok,World of Warcraft: Forever,8158696,Sound/Music/Forever/MUS_C60_Bolderok_B.mp3,False,forever-filename-association
 music-8158698,Bolderok C,Bolderok,World of Warcraft: Forever,8158698,Sound/Music/Forever/MUS_C60_Bolderok_C.mp3,False,forever-filename-association
@@ -25,6 +41,8 @@ music-8286132,Terrokar Bone Wastes Walking 1,Bone Wastes (Filename Association),
 music-8286134,Terrokar Bone Wastes Walking 2,Bone Wastes (Filename Association),World of Warcraft: Forever,8286134,Sound/Music/Forever/MUS_C_Terrokar_Bone_Wastes_Walking_2.mp3,False,forever-filename-association
 music-8286136,Terrokar Bone Wastes Walking 3,Bone Wastes (Filename Association),World of Warcraft: Forever,8286136,Sound/Music/Forever/MUS_C_Terrokar_Bone_Wastes_Walking_3.mp3,False,forever-filename-association
 music-8286138,Terrokar Bone Wastes Walking 4,Bone Wastes (Filename Association),World of Warcraft: Forever,8286138,Sound/Music/Forever/MUS_C_Terrokar_Bone_Wastes_Walking_4.mp3,False,forever-filename-association
+music-53189,Gnomeragon 01 Zone,Cities & Shared Themes,World of Warcraft: Forever,53189,Sound/music/CityMusic/Gnomeragon/gnomeragon01-zone.mp3,False,legacy-folder
+music-53190,Gnomeragon 02 Zone,Cities & Shared Themes,World of Warcraft: Forever,53190,Sound/music/CityMusic/Gnomeragon/gnomeragon02-zone.mp3,False,legacy-folder
 music-8173701,Cradle of Tranquility A,Cradle of Tranquility,World of Warcraft: Forever,8173701,Sound/Music/Forever/MUS_C60_Cradle_of_Tranquility_A.mp3,False,forever-filename-association
 music-8173703,Cradle of Tranquility B,Cradle of Tranquility,World of Warcraft: Forever,8173703,Sound/Music/Forever/MUS_C60_Cradle_of_Tranquility_B.mp3,False,forever-filename-association
 music-8175594,Cradle of Tranquility C,Cradle of Tranquility,World of Warcraft: Forever,8175594,Sound/Music/Forever/MUS_C60_Cradle_of_Tranquility_C.mp3,False,forever-filename-association
@@ -42,11 +60,11 @@ music-8451332,Dalaran Sewer 2,Dalaran,World of Warcraft: Forever,8451332,Sound/M
 music-8451334,Dalaran Sewer 3,Dalaran,World of Warcraft: Forever,8451334,Sound/Music/Forever/MUS_C_Dalaran_Sewer_3.mp3,False,forever-filename-association
 music-8451336,Dalaran Sewer 4,Dalaran,World of Warcraft: Forever,8451336,Sound/Music/Forever/MUS_C_Dalaran_Sewer_4.mp3,False,forever-filename-association
 music-8451379,Dalaran Spire,Dalaran,World of Warcraft: Forever,8451379,Sound/Music/Forever/MUS_C_Dalaran_Spire.mp3,False,forever-filename-association
-music-8180750,Darnassus Introduction,Darnassus,World of Warcraft: Forever,8180750,Sound/Music/Forever/MUS_C_Darnasssus_Intro.mp3,False,forever-filename-association
-music-8180752,Darnassus Walking 1,Darnassus,World of Warcraft: Forever,8180752,Sound/Music/Forever/MUS_C_Darnasssus_Walking_1.mp3,False,forever-filename-association
-music-8180754,Darnassus Walking 2,Darnassus,World of Warcraft: Forever,8180754,Sound/Music/Forever/MUS_C_Darnasssus_Walking_2.mp3,False,forever-filename-association
-music-8180756,Darnassus Walking 3,Darnassus,World of Warcraft: Forever,8180756,Sound/Music/Forever/MUS_C_Darnasssus_Walking_3.mp3,False,forever-filename-association
-music-8181337,Warrior Terrace,Darnassus,World of Warcraft: Forever,8181337,Sound/Music/Forever/MUS_C_Warrior_Terrace.mp3,False,forever-filename-association
+music-53183,Darnassus Introduction,Darnassus,World of Warcraft: Forever,53183,Sound/music/CityMusic/Darnassus/Darnassus Intro.mp3,False,legacy-folder
+music-53184,Darnassus Walking (Variation 1),Darnassus,World of Warcraft: Forever,53184,Sound/music/CityMusic/Darnassus/Darnassus Walking 1.mp3,False,legacy-folder
+music-53185,Darnassus Walking (Variation 2),Darnassus,World of Warcraft: Forever,53185,Sound/music/CityMusic/Darnassus/Darnassus Walking 2.mp3,False,legacy-folder
+music-53186,Darnassus Walking (Variation 3),Darnassus,World of Warcraft: Forever,53186,Sound/music/CityMusic/Darnassus/Darnassus Walking 3.mp3,False,legacy-folder
+music-53188,Warrior Terrace,Darnassus,World of Warcraft: Forever,53188,Sound/music/CityMusic/Darnassus/Warrior Terrace.mp3,False,legacy-folder
 music-8280452,Dungeons Alpine A,Dungeons: Alpine,World of Warcraft: Forever,8280452,Sound/Music/Forever/MUS_C60_Dungeons_Alpine_A.mp3,False,forever-filename-association
 music-8280454,Dungeons Alpine B,Dungeons: Alpine,World of Warcraft: Forever,8280454,Sound/Music/Forever/MUS_C60_Dungeons_Alpine_B.mp3,False,forever-filename-association
 music-8280456,Dungeons Alpine C,Dungeons: Alpine,World of Warcraft: Forever,8280456,Sound/Music/Forever/MUS_C60_Dungeons_Alpine_C.mp3,False,forever-filename-association
@@ -75,6 +93,11 @@ music-8270379,Dungeons Wetlands A,Dungeons: Wetlands,World of Warcraft: Forever,
 music-8270381,Dungeons Wetlands B,Dungeons: Wetlands,World of Warcraft: Forever,8270381,Sound/Music/Forever/MUS_C60_Dungeons_Wetlands_B.mp3,False,forever-filename-association
 music-8270383,Dungeons Wetlands C,Dungeons: Wetlands,World of Warcraft: Forever,8270383,Sound/Music/Forever/MUS_C60_Dungeons_Wetlands_C.mp3,False,forever-filename-association
 music-8270385,Dungeons Wetlands D,Dungeons: Wetlands,World of Warcraft: Forever,8270385,Sound/Music/Forever/MUS_C60_Dungeons_Wetlands_D.mp3,False,forever-filename-association
+music-53739,Dwarf Tavern 1a,Dwarven Taverns,World of Warcraft: Forever,53739,Sound/music/ZONEMUSIC/TavernDwarf/RA_DwarfTavern1A.mp3,False,legacy-folder
+music-53740,Dwarf Tavern 1b,Dwarven Taverns,World of Warcraft: Forever,53740,Sound/music/ZONEMUSIC/TavernDwarf/RA_DwarfTavern1B.mp3,False,legacy-folder
+music-53741,Dwarf Tavern 2a,Dwarven Taverns,World of Warcraft: Forever,53741,Sound/music/ZONEMUSIC/TavernDwarf/RA_DwarfTavern2A.mp3,False,legacy-folder
+music-53742,Dwarf Tavern 2b,Dwarven Taverns,World of Warcraft: Forever,53742,Sound/music/ZONEMUSIC/TavernDwarf/RA_DwarfTavern2B.mp3,False,legacy-folder
+music-53743,Dwarf Tavern 3,Dwarven Taverns,World of Warcraft: Forever,53743,Sound/music/ZONEMUSIC/TavernDwarf/RA_DwarfTavern3.mp3,False,legacy-folder
 music-8158702,Eastwind Shore A,Eastwind Shore,World of Warcraft: Forever,8158702,Sound/Music/Forever/MUS_C60_Eastwind_Shore_A.mp3,False,forever-filename-association
 music-8158704,Eastwind Shore B,Eastwind Shore,World of Warcraft: Forever,8158704,Sound/Music/Forever/MUS_C60_Eastwind_Shore_B.mp3,False,forever-filename-association
 music-8158706,Eastwind Shore C,Eastwind Shore,World of Warcraft: Forever,8158706,Sound/Music/Forever/MUS_C60_Eastwind_Shore_C.mp3,False,forever-filename-association
@@ -92,12 +115,21 @@ music-8269358,Felblood Scar C,Felblood Scar,World of Warcraft: Forever,8269358,S
 music-8200668,Freehold 1,Freehold,World of Warcraft: Forever,8200668,Sound/Music/Forever/MUS_C_Freehold_1.mp3,False,forever-filename-association
 music-8200670,Freehold 2,Freehold,World of Warcraft: Forever,8200670,Sound/Music/Forever/MUS_C_Freehold_2.mp3,False,forever-filename-association
 music-8200672,Freehold 3,Freehold,World of Warcraft: Forever,8200672,Sound/Music/Forever/MUS_C_Freehold_3.mp3,False,forever-filename-association
-music-8181329,Gnomeragon 1,Gnomeregan,World of Warcraft: Forever,8181329,Sound/Music/Forever/MUS_C_Gnomeragon_1.mp3,False,forever-filename-association
-music-8181331,Gnomeragon 2,Gnomeregan,World of Warcraft: Forever,8181331,Sound/Music/Forever/MUS_C_Gnomeragon_2.mp3,False,forever-filename-association
+music-53519,Ghost Music 03,Ghost World,World of Warcraft: Forever,53519,Sound/music/ZONEMUSIC/GhostMusic/GhostMusic03.mp3,False,legacy-folder
 music-8158738,Gustberry Lowlands A,Gustberry Lowlands,World of Warcraft: Forever,8158738,Sound/Music/Forever/MUS_C60_Gustberry_Lowlands_A.mp3,False,forever-filename-association
 music-8158740,Gustberry Lowlands B,Gustberry Lowlands,World of Warcraft: Forever,8158740,Sound/Music/Forever/MUS_C60_Gustberry_Lowlands_B.mp3,False,forever-filename-association
 music-8246678,Gustberry Lowlands C,Gustberry Lowlands,World of Warcraft: Forever,8246678,Sound/Music/Forever/MUS_C60_Gustberry_Lowlands_C.mp3,False,forever-filename-association
 music-8246680,Gustberry Lowlands D,Gustberry Lowlands,World of Warcraft: Forever,8246680,Sound/Music/Forever/MUS_C60_Gustberry_Lowlands_D.mp3,False,forever-filename-association
+music-53744,Tavern Horde 01,Horde Taverns,World of Warcraft: Forever,53744,Sound/music/ZONEMUSIC/TavernHorde/TavernHorde01.mp3,False,legacy-folder
+music-53745,Tavern Horde 02,Horde Taverns,World of Warcraft: Forever,53745,Sound/music/ZONEMUSIC/TavernHorde/TavernHorde02.mp3,False,legacy-folder
+music-53746,Tavern Horde 03,Horde Taverns,World of Warcraft: Forever,53746,Sound/music/ZONEMUSIC/TavernHorde/TavernHorde03.mp3,False,legacy-folder
+music-53747,Undead Dance,Horde Taverns,World of Warcraft: Forever,53747,Sound/music/ZONEMUSIC/TavernHorde/undead_dance.mp3,False,legacy-folder
+music-53748,Human Tavern 1a,Human Taverns,World of Warcraft: Forever,53748,Sound/music/ZONEMUSIC/TavernHuman/RA_HumanTavern1A.mp3,False,legacy-folder
+music-53749,Human Tavern 1b,Human Taverns,World of Warcraft: Forever,53749,Sound/music/ZONEMUSIC/TavernHuman/RA_HumanTavern1B.mp3,False,legacy-folder
+music-53750,Human Tavern 2a,Human Taverns,World of Warcraft: Forever,53750,Sound/music/ZONEMUSIC/TavernHuman/RA_HumanTavern2A.mp3,False,legacy-folder
+music-53751,Human Tavern 2b,Human Taverns,World of Warcraft: Forever,53751,Sound/music/ZONEMUSIC/TavernHuman/RA_HumanTavern2B.mp3,False,legacy-folder
+music-53752,Tavern 1 Revisited A,Human Taverns,World of Warcraft: Forever,53752,Sound/music/ZONEMUSIC/TavernHuman/RA_Tavern1_RevisitedA.mp3,False,legacy-folder
+music-53753,Tavern 1 Revisited B,Human Taverns,World of Warcraft: Forever,53753,Sound/music/ZONEMUSIC/TavernHuman/RA_Tavern1_RevisitedB.mp3,False,legacy-folder
 music-8285919,Hyjal Exterior Walking 1,Hyjal,World of Warcraft: Forever,8285919,Sound/Music/Forever/MUS_C_HyjalExtWalk_1.mp3,False,forever-filename-association
 music-8285931,Hyjal Exterior Walking 11,Hyjal,World of Warcraft: Forever,8285931,Sound/Music/Forever/MUS_C_HyjalExtWalk_11.mp3,False,forever-filename-association
 music-8285933,Hyjal Exterior Walking 12,Hyjal,World of Warcraft: Forever,8285933,Sound/Music/Forever/MUS_C_HyjalExtWalk_12.mp3,False,forever-filename-association
@@ -110,11 +142,12 @@ music-8158670,Hyjal General A,Hyjal,World of Warcraft: Forever,8158670,Sound/Mus
 music-8158672,Hyjal General B,Hyjal,World of Warcraft: Forever,8158672,Sound/Music/Forever/MUS_C60_Hyjal_General_B.mp3,False,forever-filename-association
 music-8158674,Hyjal General C,Hyjal,World of Warcraft: Forever,8158674,Sound/Music/Forever/MUS_C60_Hyjal_General_C.mp3,False,forever-filename-association
 music-8173713,Hyjal General D,Hyjal,World of Warcraft: Forever,8173713,Sound/Music/Forever/MUS_C60_Hyjal_General_D.mp3,False,forever-filename-association
-music-8180963,Ironforge Introduction,Ironforge,World of Warcraft: Forever,8180963,Sound/Music/Forever/MUS_C_Ironforge_Intro.mp3,False,forever-filename-association
-music-8180965,Ironforge Walking 1,Ironforge,World of Warcraft: Forever,8180965,Sound/Music/Forever/MUS_C_Ironforge_Walking_1.mp3,False,forever-filename-association
-music-8180967,Ironforge Walking 2,Ironforge,World of Warcraft: Forever,8180967,Sound/Music/Forever/MUS_C_Ironforge_Walking_2.mp3,False,forever-filename-association
-music-8180969,Ironforge Walking 3,Ironforge,World of Warcraft: Forever,8180969,Sound/Music/Forever/MUS_C_Ironforge_Walking_3.mp3,False,forever-filename-association
-music-8180971,Ironforge Walking 4,Ironforge,World of Warcraft: Forever,8180971,Sound/Music/Forever/MUS_C_Ironforge_Walking_4.mp3,False,forever-filename-association
+music-53191,Iron Forge Introduction,Ironforge,World of Warcraft: Forever,53191,Sound/music/CityMusic/Ironforge/IronForge Intro.mp3,False,legacy-folder
+music-53192,Iron Forge Walking (Variation 1),Ironforge,World of Warcraft: Forever,53192,Sound/music/CityMusic/Ironforge/IronForge Walking 01.mp3,False,legacy-folder
+music-53193,Iron Forge Walking (Variation 2),Ironforge,World of Warcraft: Forever,53193,Sound/music/CityMusic/Ironforge/IronForge Walking 02.mp3,False,legacy-folder
+music-53195,Ironforge Walking (Variation 4),Ironforge,World of Warcraft: Forever,53195,Sound/music/CityMusic/Ironforge/Ironforge Walking 04.mp3,False,legacy-folder
+music-53194,Ironforge Walking 03 (glenn),Ironforge,World of Warcraft: Forever,53194,Sound/music/CityMusic/Ironforge/Ironforge Walking 03 (Glenn).mp3,False,legacy-folder
+music-53196,Tinkertown Introduction Moment,Ironforge,World of Warcraft: Forever,53196,Sound/music/CityMusic/Ironforge/tinkertownintro_moment.mp3,False,legacy-folder
 music-8190628,Malornes Retreat A,Malorne's Retreat,World of Warcraft: Forever,8190628,Sound/Music/Forever/MUS_C60_Malornes_Retreat_A.mp3,False,forever-filename-association
 music-8190630,Malornes Retreat B,Malorne's Retreat,World of Warcraft: Forever,8190630,Sound/Music/Forever/MUS_C60_Malornes_Retreat_B.mp3,False,forever-filename-association
 music-8190632,Malornes Retreat C,Malorne's Retreat,World of Warcraft: Forever,8190632,Sound/Music/Forever/MUS_C60_Malornes_Retreat_C.mp3,False,forever-filename-association
@@ -127,16 +160,49 @@ music-8158680,Mournings Rest C,Mourning's Rest,World of Warcraft: Forever,815868
 music-8200662,Naga Incursion 1,Naga Incursion,World of Warcraft: Forever,8200662,Sound/Music/Forever/MUS_C_Naga_Incursion_1.mp3,False,forever-filename-association
 music-8200664,Naga Incursion 2,Naga Incursion,World of Warcraft: Forever,8200664,Sound/Music/Forever/MUS_C_Naga_Incursion_2.mp3,False,forever-filename-association
 music-8200666,Naga Incursion 3,Naga Incursion,World of Warcraft: Forever,8200666,Sound/Music/Forever/MUS_C_Naga_Incursion_3.mp3,False,forever-filename-association
-music-8180911,Naxxramas Walking 1,Naxxramas,World of Warcraft: Forever,8180911,Sound/Music/Forever/MUS_C_Naxxramas_Walking_1.mp3,False,forever-filename-association
-music-8180913,Naxxramas Walking 2,Naxxramas,World of Warcraft: Forever,8180913,Sound/Music/Forever/MUS_C_Naxxramas_Walking_2.mp3,False,forever-filename-association
-music-8180915,Naxxramas Walking 3,Naxxramas,World of Warcraft: Forever,8180915,Sound/Music/Forever/MUS_C_Naxxramas_Walking_3.mp3,False,forever-filename-association
-music-8180917,Naxxramas Walking 4,Naxxramas,World of Warcraft: Forever,8180917,Sound/Music/Forever/MUS_C_Naxxramas_Walking_4.mp3,False,forever-filename-association
-music-8180919,Naxxramas Walking 5,Naxxramas,World of Warcraft: Forever,8180919,Sound/Music/Forever/MUS_C_Naxxramas_Walking_5.mp3,False,forever-filename-association
-music-8180921,Naxxramas Walking 6,Naxxramas,World of Warcraft: Forever,8180921,Sound/Music/Forever/MUS_C_Naxxramas_Walking_6.mp3,False,forever-filename-association
+music-53591,Naxxramas Abomination Boss 1,Naxxramas,World of Warcraft: Forever,53591,Sound/music/ZONEMUSIC/Naxxramas/NaxxramasAbominationBoss1.mp3,False,legacy-folder
+music-53592,Naxxramas Abomination Boss 2,Naxxramas,World of Warcraft: Forever,53592,Sound/music/ZONEMUSIC/Naxxramas/NaxxramasAbominationBoss2.mp3,False,legacy-folder
+music-53593,Naxxramas Abomination Wing 1,Naxxramas,World of Warcraft: Forever,53593,Sound/music/ZONEMUSIC/Naxxramas/NaxxramasAbominationWing1.mp3,False,legacy-folder
+music-53594,Naxxramas Abomination Wing 2,Naxxramas,World of Warcraft: Forever,53594,Sound/music/ZONEMUSIC/Naxxramas/NaxxramasAbominationWing2.mp3,False,legacy-folder
+music-53595,Naxxramas Abomination Wing 3,Naxxramas,World of Warcraft: Forever,53595,Sound/music/ZONEMUSIC/Naxxramas/NaxxramasAbominationWing3.mp3,False,legacy-folder
+music-53596,Naxxramas Frostwyrm 1,Naxxramas,World of Warcraft: Forever,53596,Sound/music/ZONEMUSIC/Naxxramas/NaxxramasFrostwyrm1.mp3,False,legacy-folder
+music-53597,Naxxramas Frostwyrm 2,Naxxramas,World of Warcraft: Forever,53597,Sound/music/ZONEMUSIC/Naxxramas/NaxxramasFrostwyrm2.mp3,False,legacy-folder
+music-53598,Naxxramas Frostwyrm 3,Naxxramas,World of Warcraft: Forever,53598,Sound/music/ZONEMUSIC/Naxxramas/NaxxramasFrostwyrm3.mp3,False,legacy-folder
+music-53599,Naxxramas Frostwyrm 4,Naxxramas,World of Warcraft: Forever,53599,Sound/music/ZONEMUSIC/Naxxramas/NaxxramasFrostwyrm4.mp3,False,legacy-folder
+music-53600,Naxxramas Hub Base 1,Naxxramas,World of Warcraft: Forever,53600,Sound/music/ZONEMUSIC/Naxxramas/NaxxramasHubBase1.mp3,False,legacy-folder
+music-53601,Naxxramas Hub Base 2,Naxxramas,World of Warcraft: Forever,53601,Sound/music/ZONEMUSIC/Naxxramas/NaxxramasHubBase2.mp3,False,legacy-folder
+music-53602,Naxxramas Kel Thuzad 1,Naxxramas,World of Warcraft: Forever,53602,Sound/music/ZONEMUSIC/Naxxramas/NaxxramasKelThuzad1.mp3,False,legacy-folder
+music-53603,Naxxramas Kel Thuzad 2,Naxxramas,World of Warcraft: Forever,53603,Sound/music/ZONEMUSIC/Naxxramas/NaxxramasKelThuzad2.mp3,False,legacy-folder
+music-53604,Naxxramas Kel Thuzad 3,Naxxramas,World of Warcraft: Forever,53604,Sound/music/ZONEMUSIC/Naxxramas/NaxxramasKelThuzad3.mp3,False,legacy-folder
+music-53605,Naxxramas Plague Boss 1,Naxxramas,World of Warcraft: Forever,53605,Sound/music/ZONEMUSIC/Naxxramas/NaxxramasPlagueBoss1.mp3,False,legacy-folder
+music-53606,Naxxramas Plague Wing 1,Naxxramas,World of Warcraft: Forever,53606,Sound/music/ZONEMUSIC/Naxxramas/NaxxramasPlagueWing1.mp3,False,legacy-folder
+music-53607,Naxxramas Plague Wing 2,Naxxramas,World of Warcraft: Forever,53607,Sound/music/ZONEMUSIC/Naxxramas/NaxxramasPlagueWing2.mp3,False,legacy-folder
+music-53608,Naxxramas Plague Wing 3,Naxxramas,World of Warcraft: Forever,53608,Sound/music/ZONEMUSIC/Naxxramas/NaxxramasPlagueWing3.mp3,False,legacy-folder
+music-53609,Naxxramas Spider Boss 1,Naxxramas,World of Warcraft: Forever,53609,Sound/music/ZONEMUSIC/Naxxramas/NaxxramasSpiderBoss1.mp3,False,legacy-folder
+music-53610,Naxxramas Spider Boss 2,Naxxramas,World of Warcraft: Forever,53610,Sound/music/ZONEMUSIC/Naxxramas/NaxxramasSpiderBoss2.mp3,False,legacy-folder
+music-53611,Naxxramas Spider Wing 1,Naxxramas,World of Warcraft: Forever,53611,Sound/music/ZONEMUSIC/Naxxramas/NaxxramasSpiderWing1.mp3,False,legacy-folder
+music-53612,Naxxramas Spider Wing 2,Naxxramas,World of Warcraft: Forever,53612,Sound/music/ZONEMUSIC/Naxxramas/NaxxramasSpiderWing2.mp3,False,legacy-folder
+music-53613,Naxxramas Spider Wing 3,Naxxramas,World of Warcraft: Forever,53613,Sound/music/ZONEMUSIC/Naxxramas/NaxxramasSpiderWing3.mp3,False,legacy-folder
+music-53614,Naxxramas Walking 1,Naxxramas,World of Warcraft: Forever,53614,Sound/music/ZONEMUSIC/Naxxramas/NaxxramasWalking1.mp3,False,legacy-folder
+music-53615,Naxxramas Walking 2,Naxxramas,World of Warcraft: Forever,53615,Sound/music/ZONEMUSIC/Naxxramas/NaxxramasWalking2.mp3,False,legacy-folder
+music-53616,Naxxramas Walking 3,Naxxramas,World of Warcraft: Forever,53616,Sound/music/ZONEMUSIC/Naxxramas/NaxxramasWalking3.mp3,False,legacy-folder
+music-53617,Naxxramas Walking 4,Naxxramas,World of Warcraft: Forever,53617,Sound/music/ZONEMUSIC/Naxxramas/NaxxramasWalking4.mp3,False,legacy-folder
+music-53618,Naxxramas Walking 5,Naxxramas,World of Warcraft: Forever,53618,Sound/music/ZONEMUSIC/Naxxramas/NaxxramasWalking5.mp3,False,legacy-folder
+music-53619,Naxxramas Walking 6,Naxxramas,World of Warcraft: Forever,53619,Sound/music/ZONEMUSIC/Naxxramas/NaxxramasWalking6.mp3,False,legacy-folder
 music-8270576,Nerubian Nest C,Nerubian Nest,World of Warcraft: Forever,8270576,Sound/Music/Forever/MUS_C_Nerubian_Nest_C.mp3,False,forever-filename-association
 music-8270578,Nerubian Nest E,Nerubian Nest,World of Warcraft: Forever,8270578,Sound/Music/Forever/MUS_C_Nerubian_Nest_E.mp3,False,forever-filename-association
-music-8181033,Orgrimmar 1 Zone,Orgrimmar,World of Warcraft: Forever,8181033,Sound/Music/Forever/MUS_C_Orgrimmar_1_Zone.mp3,False,forever-filename-association
-music-8181037,Orgrimmar 2 Zone,Orgrimmar,World of Warcraft: Forever,8181037,Sound/Music/Forever/MUS_C_Orgrimmar_2_Zone.mp3,False,forever-filename-association
+music-53754,Temple of the Moon A,Night Elf Taverns,World of Warcraft: Forever,53754,Sound/music/ZONEMUSIC/TavernNightElf/RA_TempleOfTheMoonA.mp3,False,legacy-folder
+music-53755,Temple of the Moon B,Night Elf Taverns,World of Warcraft: Forever,53755,Sound/music/ZONEMUSIC/TavernNightElf/RA_TempleOfTheMoonB.mp3,False,legacy-folder
+music-53756,Orc Rest Area 1a,Orcish Taverns,World of Warcraft: Forever,53756,Sound/music/ZONEMUSIC/TavernOrc/RA_OrcRestArea1A.mp3,False,legacy-folder
+music-53757,Orc Rest Area 1b,Orcish Taverns,World of Warcraft: Forever,53757,Sound/music/ZONEMUSIC/TavernOrc/RA_OrcRestArea1B.mp3,False,legacy-folder
+music-53758,Orc Rest Area 2a,Orcish Taverns,World of Warcraft: Forever,53758,Sound/music/ZONEMUSIC/TavernOrc/RA_OrcRestArea2A.mp3,False,legacy-folder
+music-53759,Orc Rest Area 2b,Orcish Taverns,World of Warcraft: Forever,53759,Sound/music/ZONEMUSIC/TavernOrc/RA_OrcRestArea2B.mp3,False,legacy-folder
+music-53760,Orc Rest Area 3a,Orcish Taverns,World of Warcraft: Forever,53760,Sound/music/ZONEMUSIC/TavernOrc/RA_OrcRestArea3A.mp3,False,legacy-folder
+music-53761,Orc Rest Area 3b,Orcish Taverns,World of Warcraft: Forever,53761,Sound/music/ZONEMUSIC/TavernOrc/RA_OrcRestArea3B.mp3,False,legacy-folder
+music-53197,Orgrimmar 01 Moment,Orgrimmar,World of Warcraft: Forever,53197,Sound/music/CityMusic/Orgrimmar/orgrimmar01-moment.mp3,False,legacy-folder
+music-53198,Orgrimmar 01 Zone,Orgrimmar,World of Warcraft: Forever,53198,Sound/music/CityMusic/Orgrimmar/orgrimmar01-zone.mp3,False,legacy-folder
+music-53200,Orgrimmar 02 Zone,Orgrimmar,World of Warcraft: Forever,53200,Sound/music/CityMusic/Orgrimmar/orgrimmar02-zone.mp3,False,legacy-folder
+music-53201,Orgrimmar Introduction Moment,Orgrimmar,World of Warcraft: Forever,53201,Sound/music/CityMusic/Orgrimmar/orgrimmar_intro-moment.mp3,False,legacy-folder
 music-8181319,Angelic 1,Other Zone Music,World of Warcraft: Forever,8181319,Sound/Music/Forever/MUS_C_Angelic_1.mp3,False,forever-filename-association
 music-8180899,Battle 1,Other Zone Music,World of Warcraft: Forever,8180899,Sound/Music/Forever/MUS_C_Battle_1.mp3,False,forever-filename-association
 music-8180901,Battle 2,Other Zone Music,World of Warcraft: Forever,8180901,Sound/Music/Forever/MUS_C_Battle_2.mp3,False,forever-filename-association
@@ -144,46 +210,7 @@ music-8180903,Battle 3,Other Zone Music,World of Warcraft: Forever,8180903,Sound
 music-8180905,Battle 4,Other Zone Music,World of Warcraft: Forever,8180905,Sound/Music/Forever/MUS_C_Battle_4.mp3,False,forever-filename-association
 music-8180907,Battle 5,Other Zone Music,World of Warcraft: Forever,8180907,Sound/Music/Forever/MUS_C_Battle_5.mp3,False,forever-filename-association
 music-8180909,Battle 6,Other Zone Music,World of Warcraft: Forever,8180909,Sound/Music/Forever/MUS_C_Battle_6.mp3,False,forever-filename-association
-music-8180738,Cursed Land 1,Other Zone Music,World of Warcraft: Forever,8180738,Sound/Music/Forever/MUS_C_Cursed_Land_1.mp3,False,forever-filename-association
-music-8180740,Cursed Land 2,Other Zone Music,World of Warcraft: Forever,8180740,Sound/Music/Forever/MUS_C_Cursed_Land_2.mp3,False,forever-filename-association
-music-8180742,Cursed Land 3,Other Zone Music,World of Warcraft: Forever,8180742,Sound/Music/Forever/MUS_C_Cursed_Land_3.mp3,False,forever-filename-association
-music-8180744,Cursed Land 4,Other Zone Music,World of Warcraft: Forever,8180744,Sound/Music/Forever/MUS_C_Cursed_Land_4.mp3,False,forever-filename-association
-music-8180746,Cursed Land 5,Other Zone Music,World of Warcraft: Forever,8180746,Sound/Music/Forever/MUS_C_Cursed_Land_5.mp3,False,forever-filename-association
-music-8180748,Cursed Land 6,Other Zone Music,World of Warcraft: Forever,8180748,Sound/Music/Forever/MUS_C_Cursed_Land_6.mp3,False,forever-filename-association
-music-8181049,Day Barren Dry 1,Other Zone Music,World of Warcraft: Forever,8181049,Sound/Music/Forever/MUS_C_Day_Barren_Dry_1.mp3,False,forever-filename-association
-music-8181051,Day Barren Dry 2,Other Zone Music,World of Warcraft: Forever,8181051,Sound/Music/Forever/MUS_C_Day_Barren_Dry_2.mp3,False,forever-filename-association
-music-8181053,Day Barren Dry 3,Other Zone Music,World of Warcraft: Forever,8181053,Sound/Music/Forever/MUS_C_Day_Barren_Dry_3.mp3,False,forever-filename-association
-music-8181127,Day Desert 1,Other Zone Music,World of Warcraft: Forever,8181127,Sound/Music/Forever/MUS_C_Day_Desert_1.mp3,False,forever-filename-association
-music-8181129,Day Desert 2,Other Zone Music,World of Warcraft: Forever,8181129,Sound/Music/Forever/MUS_C_Day_Desert_2.mp3,False,forever-filename-association
-music-8181131,Day Desert 3,Other Zone Music,World of Warcraft: Forever,8181131,Sound/Music/Forever/MUS_C_Day_Desert_3.mp3,False,forever-filename-association
-music-8180772,Day Evil Forest 1,Other Zone Music,World of Warcraft: Forever,8180772,Sound/Music/Forever/MUS_C_Day_Evil_Forest_1.mp3,False,forever-filename-association
-music-8180774,Day Evil Forest 2,Other Zone Music,World of Warcraft: Forever,8180774,Sound/Music/Forever/MUS_C_Day_Evil_Forest_2.mp3,False,forever-filename-association
-music-8180776,Day Evil Forest 3,Other Zone Music,World of Warcraft: Forever,8180776,Sound/Music/Forever/MUS_C_Day_Evil_Forest_3.mp3,False,forever-filename-association
-music-8180778,Day Forest 1,Other Zone Music,World of Warcraft: Forever,8180778,Sound/Music/Forever/MUS_C_Day_Forest_1.mp3,False,forever-filename-association
-music-8180780,Day Forest 2,Other Zone Music,World of Warcraft: Forever,8180780,Sound/Music/Forever/MUS_C_Day_Forest_2.mp3,False,forever-filename-association
-music-8180782,Day Forest 3,Other Zone Music,World of Warcraft: Forever,8180782,Sound/Music/Forever/MUS_C_Day_Forest_3.mp3,False,forever-filename-association
-music-8181259,Day Jungle 1,Other Zone Music,World of Warcraft: Forever,8181259,Sound/Music/Forever/MUS_C_Day_Jungle_1.mp3,False,forever-filename-association
-music-8181261,Day Jungle 2,Other Zone Music,World of Warcraft: Forever,8181261,Sound/Music/Forever/MUS_C_Day_Jungle_2.mp3,False,forever-filename-association
-music-8181263,Day Jungle 3,Other Zone Music,World of Warcraft: Forever,8181263,Sound/Music/Forever/MUS_C_Day_Jungle_3.mp3,False,forever-filename-association
-music-8181287,Day Mountain 1,Other Zone Music,World of Warcraft: Forever,8181287,Sound/Music/Forever/MUS_C_Day_Mountain_1.mp3,False,forever-filename-association
-music-8181289,Day Mountain 2,Other Zone Music,World of Warcraft: Forever,8181289,Sound/Music/Forever/MUS_C_Day_Mountain_2.mp3,False,forever-filename-association
-music-8181291,Day Mountain 3,Other Zone Music,World of Warcraft: Forever,8181291,Sound/Music/Forever/MUS_C_Day_Mountain_3.mp3,False,forever-filename-association
-music-8181305,Day Plains 1,Other Zone Music,World of Warcraft: Forever,8181305,Sound/Music/Forever/MUS_C_Day_Plains_1.mp3,False,forever-filename-association
-music-8181307,Day Plains 2,Other Zone Music,World of Warcraft: Forever,8181307,Sound/Music/Forever/MUS_C_Day_Plains_2.mp3,False,forever-filename-association
-music-8181275,Day Volcanic 1,Other Zone Music,World of Warcraft: Forever,8181275,Sound/Music/Forever/MUS_C_Day_Volcanic_1.mp3,False,forever-filename-association
-music-8181277,Day Volcanic 2,Other Zone Music,World of Warcraft: Forever,8181277,Sound/Music/Forever/MUS_C_Day_Volcanic_2.mp3,False,forever-filename-association
 music-8181323,Druid Grove,Other Zone Music,World of Warcraft: Forever,8181323,Sound/Music/Forever/MUS_C_Druid_Grove.mp3,False,forever-filename-association
-music-8195263,Dwarves Tavern 1A,Other Zone Music,World of Warcraft: Forever,8195263,Sound/Music/Forever/MUS_C_Dwarves_Tavern_1A.mp3,False,forever-filename-association
-music-8195265,Dwarves Tavern 1B,Other Zone Music,World of Warcraft: Forever,8195265,Sound/Music/Forever/MUS_C_Dwarves_Tavern_1B.mp3,False,forever-filename-association
-music-8195267,Dwarves Tavern 2A,Other Zone Music,World of Warcraft: Forever,8195267,Sound/Music/Forever/MUS_C_Dwarves_Tavern_2A.mp3,False,forever-filename-association
-music-8195269,Dwarves Tavern 2B,Other Zone Music,World of Warcraft: Forever,8195269,Sound/Music/Forever/MUS_C_Dwarves_Tavern_2B.mp3,False,forever-filename-association
-music-8195271,Dwarves Tavern 3,Other Zone Music,World of Warcraft: Forever,8195271,Sound/Music/Forever/MUS_C_Dwarves_Tavern_3.mp3,False,forever-filename-association
-music-8180784,Enchanted Forest 1,Other Zone Music,World of Warcraft: Forever,8180784,Sound/Music/Forever/MUS_C_Enchanted_Forest_1.mp3,False,forever-filename-association
-music-8180786,Enchanted Forest 2,Other Zone Music,World of Warcraft: Forever,8180786,Sound/Music/Forever/MUS_C_Enchanted_Forest_2.mp3,False,forever-filename-association
-music-8180788,Enchanted Forest 3,Other Zone Music,World of Warcraft: Forever,8180788,Sound/Music/Forever/MUS_C_Enchanted_Forest_3.mp3,False,forever-filename-association
-music-8180790,Enchanted Forest 4,Other Zone Music,World of Warcraft: Forever,8180790,Sound/Music/Forever/MUS_C_Enchanted_Forest_4.mp3,False,forever-filename-association
-music-8180792,Enchanted Forest 5,Other Zone Music,World of Warcraft: Forever,8180792,Sound/Music/Forever/MUS_C_Enchanted_Forest_5.mp3,False,forever-filename-association
-music-8181321,Ghost Music 3,Other Zone Music,World of Warcraft: Forever,8181321,Sound/Music/Forever/MUS_C_Ghost_Music_3.mp3,False,forever-filename-association
 music-8181325,Gloomy 1,Other Zone Music,World of Warcraft: Forever,8181325,Sound/Music/Forever/MUS_C_Gloomy_1.mp3,False,forever-filename-association
 music-8181327,Gloomy 2,Other Zone Music,World of Warcraft: Forever,8181327,Sound/Music/Forever/MUS_C_Gloomy_2.mp3,False,forever-filename-association
 music-8204579,Goblin 11,Other Zone Music,World of Warcraft: Forever,8204579,Sound/Music/Forever/MUS_C_Goblin_11.mp3,False,forever-filename-association
@@ -194,10 +221,6 @@ music-8204587,Goblin 30,Other Zone Music,World of Warcraft: Forever,8204587,Soun
 music-8204589,Goblin 33,Other Zone Music,World of Warcraft: Forever,8204589,Sound/Music/Forever/MUS_C_Goblin_33.mp3,False,forever-filename-association
 music-8181313,Haunted 1,Other Zone Music,World of Warcraft: Forever,8181313,Sound/Music/Forever/MUS_C_Haunted_1.mp3,False,forever-filename-association
 music-8181315,Haunted 2,Other Zone Music,World of Warcraft: Forever,8181315,Sound/Music/Forever/MUS_C_Haunted_2.mp3,False,forever-filename-association
-music-8180975,Human Tavern 1A,Other Zone Music,World of Warcraft: Forever,8180975,Sound/Music/Forever/MUS_C_Human_Tavern_1A.mp3,False,forever-filename-association
-music-8180977,Human Tavern 1B,Other Zone Music,World of Warcraft: Forever,8180977,Sound/Music/Forever/MUS_C_Human_Tavern_1B.mp3,False,forever-filename-association
-music-8180979,Human Tavern 2A,Other Zone Music,World of Warcraft: Forever,8180979,Sound/Music/Forever/MUS_C_Human_Tavern_2A.mp3,False,forever-filename-association
-music-8180981,Human Tavern 2B,Other Zone Music,World of Warcraft: Forever,8180981,Sound/Music/Forever/MUS_C_Human_Tavern_2B.mp3,False,forever-filename-association
 music-8180955,Magic 1 Zone 1,Other Zone Music,World of Warcraft: Forever,8180955,Sound/Music/Forever/MUS_C_Magic_1_Zone_1.mp3,False,forever-filename-association
 music-8180957,Magic 1 Zone 2,Other Zone Music,World of Warcraft: Forever,8180957,Sound/Music/Forever/MUS_C_Magic_1_Zone_2.mp3,False,forever-filename-association
 music-8180933,Mystery 1,Other Zone Music,World of Warcraft: Forever,8180933,Sound/Music/Forever/MUS_C_Mystery_1.mp3,False,forever-filename-association
@@ -210,71 +233,11 @@ music-8180943,Mystery 6,Other Zone Music,World of Warcraft: Forever,8180943,Soun
 music-8180945,Mystery 7,Other Zone Music,World of Warcraft: Forever,8180945,Sound/Music/Forever/MUS_C_Mystery_7.mp3,False,forever-filename-association
 music-8180947,Mystery 8,Other Zone Music,World of Warcraft: Forever,8180947,Sound/Music/Forever/MUS_C_Mystery_8.mp3,False,forever-filename-association
 music-8180949,Mystery 9,Other Zone Music,World of Warcraft: Forever,8180949,Sound/Music/Forever/MUS_C_Mystery_9.mp3,False,forever-filename-association
-music-8181055,Night Barren Dry 1,Other Zone Music,World of Warcraft: Forever,8181055,Sound/Music/Forever/MUS_C_Night_Barren_Dry_1.mp3,False,forever-filename-association
-music-8181057,Night Barren Dry 2,Other Zone Music,World of Warcraft: Forever,8181057,Sound/Music/Forever/MUS_C_Night_Barren_Dry_2.mp3,False,forever-filename-association
-music-8181059,Night Barren Dry 3,Other Zone Music,World of Warcraft: Forever,8181059,Sound/Music/Forever/MUS_C_Night_Barren_Dry_3.mp3,False,forever-filename-association
-music-8181133,Night Desert 1,Other Zone Music,World of Warcraft: Forever,8181133,Sound/Music/Forever/MUS_C_Night_Desert_1.mp3,False,forever-filename-association
-music-8181135,Night Desert 2,Other Zone Music,World of Warcraft: Forever,8181135,Sound/Music/Forever/MUS_C_Night_Desert_2.mp3,False,forever-filename-association
-music-8181137,Night Desert 3,Other Zone Music,World of Warcraft: Forever,8181137,Sound/Music/Forever/MUS_C_Night_Desert_3.mp3,False,forever-filename-association
-music-8180758,Night Evil Forest 1,Other Zone Music,World of Warcraft: Forever,8180758,Sound/Music/Forever/MUS_C_Night_Evil_Forest_1.mp3,False,forever-filename-association
-music-8180760,Night Evil Forest 2,Other Zone Music,World of Warcraft: Forever,8180760,Sound/Music/Forever/MUS_C_Night_Evil_Forest_2.mp3,False,forever-filename-association
-music-8180762,Night Evil Forest 3,Other Zone Music,World of Warcraft: Forever,8180762,Sound/Music/Forever/MUS_C_Night_Evil_Forest_3.mp3,False,forever-filename-association
-music-8180764,Night Forest 1,Other Zone Music,World of Warcraft: Forever,8180764,Sound/Music/Forever/MUS_C_Night_Forest_1.mp3,False,forever-filename-association
-music-8180766,Night Forest 2,Other Zone Music,World of Warcraft: Forever,8180766,Sound/Music/Forever/MUS_C_Night_Forest_2.mp3,False,forever-filename-association
-music-8180768,Night Forest 3,Other Zone Music,World of Warcraft: Forever,8180768,Sound/Music/Forever/MUS_C_Night_Forest_3.mp3,False,forever-filename-association
-music-8180770,Night Forest 4,Other Zone Music,World of Warcraft: Forever,8180770,Sound/Music/Forever/MUS_C_Night_Forest_4.mp3,False,forever-filename-association
-music-8181265,Night Jungle 1,Other Zone Music,World of Warcraft: Forever,8181265,Sound/Music/Forever/MUS_C_Night_Jungle_1.mp3,False,forever-filename-association
-music-8181267,Night Jungle 2,Other Zone Music,World of Warcraft: Forever,8181267,Sound/Music/Forever/MUS_C_Night_Jungle_2.mp3,False,forever-filename-association
-music-8181269,Night Jungle 3,Other Zone Music,World of Warcraft: Forever,8181269,Sound/Music/Forever/MUS_C_Night_Jungle_3.mp3,False,forever-filename-association
-music-8181293,Night Mountain 1,Other Zone Music,World of Warcraft: Forever,8181293,Sound/Music/Forever/MUS_C_Night_Mountain_1.mp3,False,forever-filename-association
-music-8181295,Night Mountain 2,Other Zone Music,World of Warcraft: Forever,8181295,Sound/Music/Forever/MUS_C_Night_Mountain_2.mp3,False,forever-filename-association
-music-8181297,Night Mountain 3,Other Zone Music,World of Warcraft: Forever,8181297,Sound/Music/Forever/MUS_C_Night_Mountain_3.mp3,False,forever-filename-association
-music-8181299,Night Mountain 4,Other Zone Music,World of Warcraft: Forever,8181299,Sound/Music/Forever/MUS_C_Night_Mountain_4.mp3,False,forever-filename-association
-music-8181309,Night Plains 1,Other Zone Music,World of Warcraft: Forever,8181309,Sound/Music/Forever/MUS_C_Night_Plains_1.mp3,False,forever-filename-association
-music-8181311,Night Plains 2,Other Zone Music,World of Warcraft: Forever,8181311,Sound/Music/Forever/MUS_C_Night_Plains_2.mp3,False,forever-filename-association
-music-8181279,Night Volcanic 1,Other Zone Music,World of Warcraft: Forever,8181279,Sound/Music/Forever/MUS_C_Night_Volcanic_1.mp3,False,forever-filename-association
-music-8181281,Night Volcanic 2,Other Zone Music,World of Warcraft: Forever,8181281,Sound/Music/Forever/MUS_C_Night_Volcanic_2.mp3,False,forever-filename-association
-music-8195273,Orc Rest Area 1A,Other Zone Music,World of Warcraft: Forever,8195273,Sound/Music/Forever/MUS_C_Orc_Rest_Area_1A.mp3,False,forever-filename-association
-music-8195275,Orc Rest Area 1B,Other Zone Music,World of Warcraft: Forever,8195275,Sound/Music/Forever/MUS_C_Orc_Rest_Area_1B.mp3,False,forever-filename-association
-music-8195277,Orc Rest Area 2A,Other Zone Music,World of Warcraft: Forever,8195277,Sound/Music/Forever/MUS_C_Orc_Rest_Area_2A.mp3,False,forever-filename-association
-music-8195279,Orc Rest Area 2B,Other Zone Music,World of Warcraft: Forever,8195279,Sound/Music/Forever/MUS_C_Orc_Rest_Area_2B.mp3,False,forever-filename-association
-music-8195281,Orc Rest Area 3A,Other Zone Music,World of Warcraft: Forever,8195281,Sound/Music/Forever/MUS_C_Orc_Rest_Area_3A.mp3,False,forever-filename-association
-music-8195283,Orc Rest Area 3B,Other Zone Music,World of Warcraft: Forever,8195283,Sound/Music/Forever/MUS_C_Orc_Rest_Area_3B.mp3,False,forever-filename-association
-music-8195285,Pirate Tavern 1A,Other Zone Music,World of Warcraft: Forever,8195285,Sound/Music/Forever/MUS_C_Pirate_Tavern_1A.mp3,False,forever-filename-association
-music-8195287,Pirate Tavern 1B,Other Zone Music,World of Warcraft: Forever,8195287,Sound/Music/Forever/MUS_C_Pirate_Tavern_1B.mp3,False,forever-filename-association
-music-8195289,Pirate Tavern 2A,Other Zone Music,World of Warcraft: Forever,8195289,Sound/Music/Forever/MUS_C_Pirate_Tavern_2A.mp3,False,forever-filename-association
-music-8195291,Pirate Tavern 2B,Other Zone Music,World of Warcraft: Forever,8195291,Sound/Music/Forever/MUS_C_Pirate_Tavern_2B.mp3,False,forever-filename-association
-music-8195293,Pirate Tavern 3A,Other Zone Music,World of Warcraft: Forever,8195293,Sound/Music/Forever/MUS_C_Pirate_Tavern_3A.mp3,False,forever-filename-association
-music-8195295,Pirate Tavern 3B,Other Zone Music,World of Warcraft: Forever,8195295,Sound/Music/Forever/MUS_C_Pirate_Tavern_3B.mp3,False,forever-filename-association
-music-8181021,PvP 1,Other Zone Music,World of Warcraft: Forever,8181021,Sound/Music/Forever/MUS_C_PvP_1.mp3,False,forever-filename-association
-music-8181023,PvP 2,Other Zone Music,World of Warcraft: Forever,8181023,Sound/Music/Forever/MUS_C_PvP_2.mp3,False,forever-filename-association
-music-8181025,PvP 3,Other Zone Music,World of Warcraft: Forever,8181025,Sound/Music/Forever/MUS_C_PvP_3.mp3,False,forever-filename-association
-music-8181027,PvP 4,Other Zone Music,World of Warcraft: Forever,8181027,Sound/Music/Forever/MUS_C_PvP_4.mp3,False,forever-filename-association
-music-8181029,PvP 5,Other Zone Music,World of Warcraft: Forever,8181029,Sound/Music/Forever/MUS_C_PvP_5.mp3,False,forever-filename-association
 music-8181301,Sacred 1,Other Zone Music,World of Warcraft: Forever,8181301,Sound/Music/Forever/MUS_C_Sacred_1.mp3,False,forever-filename-association
 music-8181303,Sacred 2,Other Zone Music,World of Warcraft: Forever,8181303,Sound/Music/Forever/MUS_C_Sacred_2.mp3,False,forever-filename-association
-music-8181011,Soggy Place Zone 1,Other Zone Music,World of Warcraft: Forever,8181011,Sound/Music/Forever/MUS_C_Soggy_Place_Zone_1.mp3,False,forever-filename-association
-music-8181013,Soggy Place Zone 2,Other Zone Music,World of Warcraft: Forever,8181013,Sound/Music/Forever/MUS_C_Soggy_Place_Zone_2.mp3,False,forever-filename-association
-music-8181015,Soggy Place Zone 3,Other Zone Music,World of Warcraft: Forever,8181015,Sound/Music/Forever/MUS_C_Soggy_Place_Zone_3.mp3,False,forever-filename-association
-music-8181017,Soggy Place Zone 4,Other Zone Music,World of Warcraft: Forever,8181017,Sound/Music/Forever/MUS_C_Soggy_Place_Zone_4.mp3,False,forever-filename-association
-music-8181019,Soggy Place Zone 5,Other Zone Music,World of Warcraft: Forever,8181019,Sound/Music/Forever/MUS_C_Soggy_Place_Zone_5.mp3,False,forever-filename-association
 music-8181335,Swamp 1,Other Zone Music,World of Warcraft: Forever,8181335,Sound/Music/Forever/MUS_C_Swamp_1.mp3,False,forever-filename-association
-music-8180886,Tauren Rest Area 1A,Other Zone Music,World of Warcraft: Forever,8180886,Sound/Music/Forever/MUS_C_Tauren_Rest_Area_1A.mp3,False,forever-filename-association
-music-8180888,Tauren Rest Area 1B,Other Zone Music,World of Warcraft: Forever,8180888,Sound/Music/Forever/MUS_C_Tauren_Rest_Area_1B.mp3,False,forever-filename-association
-music-8180890,Tauren Rest Area 2A,Other Zone Music,World of Warcraft: Forever,8180890,Sound/Music/Forever/MUS_C_Tauren_Rest_Area_2A.mp3,False,forever-filename-association
-music-8180892,Tauren Rest Area 2B,Other Zone Music,World of Warcraft: Forever,8180892,Sound/Music/Forever/MUS_C_Tauren_Rest_Area_2B.mp3,False,forever-filename-association
-music-8180894,Tauren Rest Area 3A,Other Zone Music,World of Warcraft: Forever,8180894,Sound/Music/Forever/MUS_C_Tauren_Rest_Area_3A.mp3,False,forever-filename-association
-music-8180896,Tauren Rest Area 3B,Other Zone Music,World of Warcraft: Forever,8180896,Sound/Music/Forever/MUS_C_Tauren_Rest_Area_3B.mp3,False,forever-filename-association
 music-8180983,Tavern Alliance 1,Other Zone Music,World of Warcraft: Forever,8180983,Sound/Music/Forever/MUS_C_Tavern_Alliance_1.mp3,False,forever-filename-association
 music-8180985,Tavern Alliance 2,Other Zone Music,World of Warcraft: Forever,8180985,Sound/Music/Forever/MUS_C_Tavern_Alliance_2.mp3,False,forever-filename-association
-music-8180987,Tavern Horde 1,Other Zone Music,World of Warcraft: Forever,8180987,Sound/Music/Forever/MUS_C_Tavern_Horde_1.mp3,False,forever-filename-association
-music-8180989,Tavern Horde 2,Other Zone Music,World of Warcraft: Forever,8180989,Sound/Music/Forever/MUS_C_Tavern_Horde_2.mp3,False,forever-filename-association
-music-8180991,Tavern Horde 3,Other Zone Music,World of Warcraft: Forever,8180991,Sound/Music/Forever/MUS_C_Tavern_Horde_3.mp3,False,forever-filename-association
-music-8180923,Undead Tavern 1A,Other Zone Music,World of Warcraft: Forever,8180923,Sound/Music/Forever/MUS_C_Undead_Tavern_1A.mp3,False,forever-filename-association
-music-8180925,Undead Tavern 1B,Other Zone Music,World of Warcraft: Forever,8180925,Sound/Music/Forever/MUS_C_Undead_Tavern_1B.mp3,False,forever-filename-association
-music-8180927,Undead Tavern 2,Other Zone Music,World of Warcraft: Forever,8180927,Sound/Music/Forever/MUS_C_Undead_Tavern_2.mp3,False,forever-filename-association
-music-8180929,Undead Tavern 3A,Other Zone Music,World of Warcraft: Forever,8180929,Sound/Music/Forever/MUS_C_Undead_Tavern_3A.mp3,False,forever-filename-association
-music-8180931,Undead Tavern 3B,Other Zone Music,World of Warcraft: Forever,8180931,Sound/Music/Forever/MUS_C_Undead_Tavern_3B.mp3,False,forever-filename-association
 music-8200690,ZulAman Amb 1,Other Zone Music,World of Warcraft: Forever,8200690,Sound/Music/Forever/MUS_C_ZulAman_Amb_1.mp3,False,forever-filename-association
 music-8200692,ZulAman Amb 2,Other Zone Music,World of Warcraft: Forever,8200692,Sound/Music/Forever/MUS_C_ZulAman_Amb_2.mp3,False,forever-filename-association
 music-8200694,ZulAman Amb 3,Other Zone Music,World of Warcraft: Forever,8200694,Sound/Music/Forever/MUS_C_ZulAman_Amb_3.mp3,False,forever-filename-association
@@ -285,6 +248,12 @@ music-8200646,ZulAman Battle 3,Other Zone Music,World of Warcraft: Forever,82006
 music-8200648,ZulAman Battle 4,Other Zone Music,World of Warcraft: Forever,8200648,Sound/Music/Forever/MUS_C_ZulAman_Battle_4.mp3,False,forever-filename-association
 music-8200650,ZulAman Battle 5,Other Zone Music,World of Warcraft: Forever,8200650,Sound/Music/Forever/MUS_C_ZulAman_Battle_5.mp3,False,forever-filename-association
 music-8181341,ZulGurub Voodoo,Other Zone Music,World of Warcraft: Forever,8181341,Sound/Music/Forever/MUS_C_ZulGurub_Voodoo.mp3,False,forever-filename-association
+music-53762,Pirate Tavern 1a,Pirate Taverns,World of Warcraft: Forever,53762,Sound/music/ZONEMUSIC/TavernPirate/RA_PirateTavern1A.mp3,False,legacy-folder
+music-53763,Pirate Tavern 1b,Pirate Taverns,World of Warcraft: Forever,53763,Sound/music/ZONEMUSIC/TavernPirate/RA_PirateTavern1B.mp3,False,legacy-folder
+music-53764,Pirate Tavern 2a,Pirate Taverns,World of Warcraft: Forever,53764,Sound/music/ZONEMUSIC/TavernPirate/RA_PirateTavern2A.mp3,False,legacy-folder
+music-53765,Pirate Tavern 2b,Pirate Taverns,World of Warcraft: Forever,53765,Sound/music/ZONEMUSIC/TavernPirate/RA_PirateTavern2B.mp3,False,legacy-folder
+music-53766,Pirate Tavern 3a,Pirate Taverns,World of Warcraft: Forever,53766,Sound/music/ZONEMUSIC/TavernPirate/RA_PirateTavern3A.mp3,False,legacy-folder
+music-53767,Pirate Tavern 3b,Pirate Taverns,World of Warcraft: Forever,53767,Sound/music/ZONEMUSIC/TavernPirate/RA_PirateTavern3B.mp3,False,legacy-folder
 music-8200652,Riplash 1,Riplash,World of Warcraft: Forever,8200652,Sound/Music/Forever/MUS_C_Riplash_1.mp3,False,forever-filename-association
 music-8200654,Riplash 2,Riplash,World of Warcraft: Forever,8200654,Sound/Music/Forever/MUS_C_Riplash_2.mp3,False,forever-filename-association
 music-8200656,Riplash 3,Riplash,World of Warcraft: Forever,8200656,Sound/Music/Forever/MUS_C_Riplash_3.mp3,False,forever-filename-association
@@ -302,6 +271,68 @@ music-8158726,Rogmar Outpost D,Rogmar Outpost,World of Warcraft: Forever,8158726
 music-8158742,Shadowgale Forest A,Shadowgale Forest,World of Warcraft: Forever,8158742,Sound/Music/Forever/MUS_C60_Shadowgale_Forest_A.mp3,False,forever-filename-association
 music-8158744,Shadowgale Forest B,Shadowgale Forest,World of Warcraft: Forever,8158744,Sound/Music/Forever/MUS_C60_Shadowgale_Forest_B.mp3,False,forever-filename-association
 music-8246682,Shadowgale Forest C,Shadowgale Forest,World of Warcraft: Forever,8246682,Sound/Music/Forever/MUS_C60_Shadowgale_Forest_C.mp3,False,forever-filename-association
+music-53299,Day Barren Dry 01,Shared Landscapes: Barren Lands,World of Warcraft: Forever,53299,Sound/music/ZONEMUSIC/BarrenDry/DayBarrenDry01.mp3,False,legacy-folder
+music-53300,Day Barren Dry 02,Shared Landscapes: Barren Lands,World of Warcraft: Forever,53300,Sound/music/ZONEMUSIC/BarrenDry/DayBarrenDry02.mp3,False,legacy-folder
+music-53301,Day Barren Dry 03,Shared Landscapes: Barren Lands,World of Warcraft: Forever,53301,Sound/music/ZONEMUSIC/BarrenDry/DayBarrenDry03.mp3,False,legacy-folder
+music-53302,Night Barren Dry 01,Shared Landscapes: Barren Lands,World of Warcraft: Forever,53302,Sound/music/ZONEMUSIC/BarrenDry/NightBarrenDry01.mp3,False,legacy-folder
+music-53303,Night Barren Dry 02,Shared Landscapes: Barren Lands,World of Warcraft: Forever,53303,Sound/music/ZONEMUSIC/BarrenDry/NightBarrenDry02.mp3,False,legacy-folder
+music-53304,Night Barren Dry 03,Shared Landscapes: Barren Lands,World of Warcraft: Forever,53304,Sound/music/ZONEMUSIC/BarrenDry/NightBarrenDry03.mp3,False,legacy-folder
+music-53426,Cursed Land 01,Shared Landscapes: Cursed Lands,World of Warcraft: Forever,53426,Sound/music/ZONEMUSIC/CursedLand/CursedLand01.mp3,False,legacy-folder
+music-53427,Cursed Land 02,Shared Landscapes: Cursed Lands,World of Warcraft: Forever,53427,Sound/music/ZONEMUSIC/CursedLand/CursedLand02.mp3,False,legacy-folder
+music-53428,Cursed Land 03,Shared Landscapes: Cursed Lands,World of Warcraft: Forever,53428,Sound/music/ZONEMUSIC/CursedLand/CursedLand03.mp3,False,legacy-folder
+music-53429,Cursed Land 04,Shared Landscapes: Cursed Lands,World of Warcraft: Forever,53429,Sound/music/ZONEMUSIC/CursedLand/CursedLand04.mp3,False,legacy-folder
+music-53430,Cursed Land 05,Shared Landscapes: Cursed Lands,World of Warcraft: Forever,53430,Sound/music/ZONEMUSIC/CursedLand/CursedLand05.mp3,False,legacy-folder
+music-53431,Cursed Land 06,Shared Landscapes: Cursed Lands,World of Warcraft: Forever,53431,Sound/music/ZONEMUSIC/CursedLand/CursedLand06.mp3,False,legacy-folder
+music-53486,Day Evil Forest 01,Shared Landscapes: Dark Forest,World of Warcraft: Forever,53486,Sound/music/ZONEMUSIC/EvilForest/DayEvilForest01.mp3,False,legacy-folder
+music-53487,Day Evil Forest 02,Shared Landscapes: Dark Forest,World of Warcraft: Forever,53487,Sound/music/ZONEMUSIC/EvilForest/DayEvilForest02.mp3,False,legacy-folder
+music-53488,Day Evil Forest 03,Shared Landscapes: Dark Forest,World of Warcraft: Forever,53488,Sound/music/ZONEMUSIC/EvilForest/DayEvilForest03.mp3,False,legacy-folder
+music-53489,Night Evil Forest 01,Shared Landscapes: Dark Forest,World of Warcraft: Forever,53489,Sound/music/ZONEMUSIC/EvilForest/NightEvilForest01.mp3,False,legacy-folder
+music-53490,Night Evil Forest 02,Shared Landscapes: Dark Forest,World of Warcraft: Forever,53490,Sound/music/ZONEMUSIC/EvilForest/NightEvilForest02.mp3,False,legacy-folder
+music-53491,Night Evil Forest 03,Shared Landscapes: Dark Forest,World of Warcraft: Forever,53491,Sound/music/ZONEMUSIC/EvilForest/NightEvilForest03.mp3,False,legacy-folder
+music-53432,Day Desert 01,Shared Landscapes: Desert,World of Warcraft: Forever,53432,Sound/music/ZONEMUSIC/Desert/DayDesert01.mp3,False,legacy-folder
+music-53433,Day Desert 02,Shared Landscapes: Desert,World of Warcraft: Forever,53433,Sound/music/ZONEMUSIC/Desert/DayDesert02.mp3,False,legacy-folder
+music-53434,Day Desert 03,Shared Landscapes: Desert,World of Warcraft: Forever,53434,Sound/music/ZONEMUSIC/Desert/DayDesert03.mp3,False,legacy-folder
+music-53435,Night Desert 01,Shared Landscapes: Desert,World of Warcraft: Forever,53435,Sound/music/ZONEMUSIC/Desert/NightDesert01.mp3,False,legacy-folder
+music-53436,Night Desert 02,Shared Landscapes: Desert,World of Warcraft: Forever,53436,Sound/music/ZONEMUSIC/Desert/NightDesert02.mp3,False,legacy-folder
+music-53437,Night Desert 03,Shared Landscapes: Desert,World of Warcraft: Forever,53437,Sound/music/ZONEMUSIC/Desert/NightDesert03.mp3,False,legacy-folder
+music-53453,Enchanted Forest 01,Shared Landscapes: Enchanted Forest,World of Warcraft: Forever,53453,Sound/music/ZONEMUSIC/EnchantedForest/EnchantedForest01.mp3,False,legacy-folder
+music-53454,Enchanted Forest 02,Shared Landscapes: Enchanted Forest,World of Warcraft: Forever,53454,Sound/music/ZONEMUSIC/EnchantedForest/EnchantedForest02.mp3,False,legacy-folder
+music-53455,Enchanted Forest 03,Shared Landscapes: Enchanted Forest,World of Warcraft: Forever,53455,Sound/music/ZONEMUSIC/EnchantedForest/EnchantedForest03.mp3,False,legacy-folder
+music-53456,Enchanted Forest 04,Shared Landscapes: Enchanted Forest,World of Warcraft: Forever,53456,Sound/music/ZONEMUSIC/EnchantedForest/EnchantedForest04.mp3,False,legacy-folder
+music-53457,Enchanted Forest 05,Shared Landscapes: Enchanted Forest,World of Warcraft: Forever,53457,Sound/music/ZONEMUSIC/EnchantedForest/EnchantedForest05.mp3,False,legacy-folder
+music-53492,Day Forest 01,Shared Landscapes: Forest,World of Warcraft: Forever,53492,Sound/music/ZONEMUSIC/Forest/DayForest01.mp3,False,legacy-folder
+music-53493,Day Forest 02,Shared Landscapes: Forest,World of Warcraft: Forever,53493,Sound/music/ZONEMUSIC/Forest/DayForest02.mp3,False,legacy-folder
+music-53494,Day Forest 03,Shared Landscapes: Forest,World of Warcraft: Forever,53494,Sound/music/ZONEMUSIC/Forest/DayForest03.mp3,False,legacy-folder
+music-53495,Night Forest 01,Shared Landscapes: Forest,World of Warcraft: Forever,53495,Sound/music/ZONEMUSIC/Forest/NightForest01.mp3,False,legacy-folder
+music-53496,Night Forest 02,Shared Landscapes: Forest,World of Warcraft: Forever,53496,Sound/music/ZONEMUSIC/Forest/NightForest02.mp3,False,legacy-folder
+music-53497,Night Forest 03,Shared Landscapes: Forest,World of Warcraft: Forever,53497,Sound/music/ZONEMUSIC/Forest/NightForest03.mp3,False,legacy-folder
+music-53498,Night Forest 04,Shared Landscapes: Forest,World of Warcraft: Forever,53498,Sound/music/ZONEMUSIC/Forest/NightForest04.mp3,False,legacy-folder
+music-53541,Day Jungle 01,Shared Landscapes: Jungle,World of Warcraft: Forever,53541,Sound/music/ZONEMUSIC/Jungle/DayJungle01.mp3,False,legacy-folder
+music-53542,Day Jungle 02,Shared Landscapes: Jungle,World of Warcraft: Forever,53542,Sound/music/ZONEMUSIC/Jungle/DayJungle02.mp3,False,legacy-folder
+music-53543,Day Jungle 03,Shared Landscapes: Jungle,World of Warcraft: Forever,53543,Sound/music/ZONEMUSIC/Jungle/DayJungle03.mp3,False,legacy-folder
+music-53544,Night Jungle 01,Shared Landscapes: Jungle,World of Warcraft: Forever,53544,Sound/music/ZONEMUSIC/Jungle/NightJungle01.mp3,False,legacy-folder
+music-53545,Night Jungle 02,Shared Landscapes: Jungle,World of Warcraft: Forever,53545,Sound/music/ZONEMUSIC/Jungle/NightJungle02.mp3,False,legacy-folder
+music-53546,Night Jungle 03,Shared Landscapes: Jungle,World of Warcraft: Forever,53546,Sound/music/ZONEMUSIC/Jungle/NightJungle03.mp3,False,legacy-folder
+music-53695,Soggyplace Zone 1,Shared Landscapes: Marshes,World of Warcraft: Forever,53695,Sound/music/ZONEMUSIC/SoggyPlace/soggyplace-zone1.mp3,False,legacy-folder
+music-53696,Soggyplace Zone 2,Shared Landscapes: Marshes,World of Warcraft: Forever,53696,Sound/music/ZONEMUSIC/SoggyPlace/soggyplace-zone2.mp3,False,legacy-folder
+music-53697,Soggyplace Zone 3,Shared Landscapes: Marshes,World of Warcraft: Forever,53697,Sound/music/ZONEMUSIC/SoggyPlace/soggyplace-zone3.mp3,False,legacy-folder
+music-53698,Soggyplace Zone 4,Shared Landscapes: Marshes,World of Warcraft: Forever,53698,Sound/music/ZONEMUSIC/SoggyPlace/soggyplace-zone4.mp3,False,legacy-folder
+music-53699,Soggyplace Zone 5,Shared Landscapes: Marshes,World of Warcraft: Forever,53699,Sound/music/ZONEMUSIC/SoggyPlace/soggyplace-zone5.mp3,False,legacy-folder
+music-53577,Day Mountain 01,Shared Landscapes: Mountains,World of Warcraft: Forever,53577,Sound/music/ZONEMUSIC/Mountain/DayMountain01.mp3,False,legacy-folder
+music-53578,Day Mountain 02,Shared Landscapes: Mountains,World of Warcraft: Forever,53578,Sound/music/ZONEMUSIC/Mountain/DayMountain02.mp3,False,legacy-folder
+music-53579,Day Mountain 03,Shared Landscapes: Mountains,World of Warcraft: Forever,53579,Sound/music/ZONEMUSIC/Mountain/DayMountain03.mp3,False,legacy-folder
+music-53580,Night Mountain 01,Shared Landscapes: Mountains,World of Warcraft: Forever,53580,Sound/music/ZONEMUSIC/Mountain/NightMountain01.mp3,False,legacy-folder
+music-53581,Night Mountain 02,Shared Landscapes: Mountains,World of Warcraft: Forever,53581,Sound/music/ZONEMUSIC/Mountain/NightMountain02.mp3,False,legacy-folder
+music-53582,Night Mountain 03,Shared Landscapes: Mountains,World of Warcraft: Forever,53582,Sound/music/ZONEMUSIC/Mountain/NightMountain03.mp3,False,legacy-folder
+music-53583,Night Mountain 04,Shared Landscapes: Mountains,World of Warcraft: Forever,53583,Sound/music/ZONEMUSIC/Mountain/NightMountain04.mp3,False,legacy-folder
+music-53680,Day Plains 01,Shared Landscapes: Plains,World of Warcraft: Forever,53680,Sound/music/ZONEMUSIC/Plains/DayPlains01.mp3,False,legacy-folder
+music-53681,Day Plains 02,Shared Landscapes: Plains,World of Warcraft: Forever,53681,Sound/music/ZONEMUSIC/Plains/DayPlains02.mp3,False,legacy-folder
+music-53682,Night Plains 01,Shared Landscapes: Plains,World of Warcraft: Forever,53682,Sound/music/ZONEMUSIC/Plains/NightPlains01.mp3,False,legacy-folder
+music-53683,Night Plains 02,Shared Landscapes: Plains,World of Warcraft: Forever,53683,Sound/music/ZONEMUSIC/Plains/NightPlains02.mp3,False,legacy-folder
+music-53812,Day Volcanic 01,Shared Landscapes: Volcanic,World of Warcraft: Forever,53812,Sound/music/ZONEMUSIC/Volcanic/DayVolcanic01.mp3,False,legacy-folder
+music-53813,Day Volcanic 02,Shared Landscapes: Volcanic,World of Warcraft: Forever,53813,Sound/music/ZONEMUSIC/Volcanic/DayVolcanic02.mp3,False,legacy-folder
+music-53814,Night Volcanic 01,Shared Landscapes: Volcanic,World of Warcraft: Forever,53814,Sound/music/ZONEMUSIC/Volcanic/NightVolcanic01.mp3,False,legacy-folder
+music-53815,Night Volcanic 02,Shared Landscapes: Volcanic,World of Warcraft: Forever,53815,Sound/music/ZONEMUSIC/Volcanic/NightVolcanic02.mp3,False,legacy-folder
 music-8158746,Shendar Hub A,Shendar,World of Warcraft: Forever,8158746,Sound/Music/Forever/MUS_C60_Shendar_Hub_A.mp3,False,forever-filename-association
 music-8158748,Shendar Hub B,Shendar,World of Warcraft: Forever,8158748,Sound/Music/Forever/MUS_C60_Shendar_Hub_B.mp3,False,forever-filename-association
 music-8246684,Shendar Hub C,Shendar,World of Warcraft: Forever,8246684,Sound/Music/Forever/MUS_C60_Shendar_Hub_C.mp3,False,forever-filename-association
@@ -324,14 +355,16 @@ music-8281865,Shrine of Aviana C,Shrine of Aviana,World of Warcraft: Forever,828
 music-8281867,Shrine of Aviana D,Shrine of Aviana,World of Warcraft: Forever,8281867,Sound/Music/Forever/MUS_C60_Shrine_of_Aviana_D.mp3,False,forever-filename-association
 music-8270580,Silken Path A,Silken Path,World of Warcraft: Forever,8270580,Sound/Music/Forever/MUS_C_Silken_Path_A.mp3,False,forever-filename-association
 music-8270582,Silken Path E,Silken Path,World of Warcraft: Forever,8270582,Sound/Music/Forever/MUS_C_Silken_Path_E.mp3,False,forever-filename-association
-music-8180866,Stormwind 1,Stormwind,World of Warcraft: Forever,8180866,Sound/Music/Forever/MUS_C_Stormwind_1.mp3,False,forever-filename-association
-music-8180868,Stormwind 2,Stormwind,World of Warcraft: Forever,8180868,Sound/Music/Forever/MUS_C_Stormwind_2.mp3,False,forever-filename-association
-music-8180870,Stormwind 3,Stormwind,World of Warcraft: Forever,8180870,Sound/Music/Forever/MUS_C_Stormwind_3.mp3,False,forever-filename-association
-music-8180872,Stormwind 4,Stormwind,World of Warcraft: Forever,8180872,Sound/Music/Forever/MUS_C_Stormwind_4.mp3,False,forever-filename-association
-music-8180874,Stormwind 5,Stormwind,World of Warcraft: Forever,8180874,Sound/Music/Forever/MUS_C_Stormwind_5.mp3,False,forever-filename-association
-music-8180876,Stormwind 6,Stormwind,World of Warcraft: Forever,8180876,Sound/Music/Forever/MUS_C_Stormwind_6.mp3,False,forever-filename-association
-music-8180878,Stormwind 7,Stormwind,World of Warcraft: Forever,8180878,Sound/Music/Forever/MUS_C_Stormwind_7.mp3,False,forever-filename-association
-music-8180880,Stormwind 8,Stormwind,World of Warcraft: Forever,8180880,Sound/Music/Forever/MUS_C_Stormwind_8.mp3,False,forever-filename-association
+classic-stormwind-intro,Stormwind (Introduction),Stormwind,World of Warcraft: Forever,53211,Sound/music/CityMusic/Stormwind/stormwind_intro-moment.mp3,False,prototype-override
+music-53202,Stormwind 01 Moment,Stormwind,World of Warcraft: Forever,53202,Sound/music/CityMusic/Stormwind/stormwind01-moment.mp3,False,legacy-folder
+music-53203,Stormwind 02 Moment,Stormwind,World of Warcraft: Forever,53203,Sound/music/CityMusic/Stormwind/stormwind02-moment.mp3,False,legacy-folder
+music-53204,Stormwind 03 Moment,Stormwind,World of Warcraft: Forever,53204,Sound/music/CityMusic/Stormwind/stormwind03-moment.mp3,False,legacy-folder
+music-53205,Stormwind 04 Zone,Stormwind,World of Warcraft: Forever,53205,Sound/music/CityMusic/Stormwind/stormwind04-zone.mp3,False,legacy-folder
+music-53206,Stormwind 05 Zone,Stormwind,World of Warcraft: Forever,53206,Sound/music/CityMusic/Stormwind/stormwind05-zone.mp3,False,legacy-folder
+music-53207,Stormwind 06 Zone,Stormwind,World of Warcraft: Forever,53207,Sound/music/CityMusic/Stormwind/stormwind06-zone.mp3,False,legacy-folder
+music-53208,Stormwind 07 Zone,Stormwind,World of Warcraft: Forever,53208,Sound/music/CityMusic/Stormwind/stormwind07-zone.mp3,False,legacy-folder
+music-53209,Stormwind 08 Zone,Stormwind,World of Warcraft: Forever,53209,Sound/music/CityMusic/Stormwind/stormwind08-zone.mp3,False,legacy-folder
+music-53210,Stormwind High Seas Moment,Stormwind,World of Warcraft: Forever,53210,Sound/music/CityMusic/Stormwind/stormwind_highSeas-moment.mp3,False,legacy-folder
 music-8200674,Stranglethorn 1,Stranglethorn Vale,World of Warcraft: Forever,8200674,Sound/Music/Forever/MUS_C_Stranglethorn_1.mp3,False,forever-filename-association
 music-8200676,Stranglethorn 2,Stranglethorn Vale,World of Warcraft: Forever,8200676,Sound/Music/Forever/MUS_C_Stranglethorn_2.mp3,False,forever-filename-association
 music-8200678,Stranglethorn 3,Stranglethorn Vale,World of Warcraft: Forever,8200678,Sound/Music/Forever/MUS_C_Stranglethorn_3.mp3,False,forever-filename-association
@@ -346,21 +379,33 @@ music-8173723,Sunnyglade C,Sunnyglade,World of Warcraft: Forever,8173723,Sound/M
 music-8269360,Tainted Foothills A,Tainted Foothills,World of Warcraft: Forever,8269360,Sound/Music/Forever/MUS_C60_Tainted_Foothills_A.mp3,False,forever-filename-association
 music-8269362,Tainted Foothills B,Tainted Foothills,World of Warcraft: Forever,8269362,Sound/Music/Forever/MUS_C60_Tainted_Foothills_B.mp3,False,forever-filename-association
 music-8269364,Tainted Foothills C,Tainted Foothills,World of Warcraft: Forever,8269364,Sound/Music/Forever/MUS_C60_Tainted_Foothills_C.mp3,False,forever-filename-association
+music-53768,Tauren Rest Area 1a,Tauren Taverns,World of Warcraft: Forever,53768,Sound/music/ZONEMUSIC/TavernTauren/RA_TaurenRestArea1A.mp3,False,legacy-folder
+music-53769,Tauren Rest Area 1b,Tauren Taverns,World of Warcraft: Forever,53769,Sound/music/ZONEMUSIC/TavernTauren/RA_TaurenRestArea1B.mp3,False,legacy-folder
+music-53770,Tauren Rest Area 2a,Tauren Taverns,World of Warcraft: Forever,53770,Sound/music/ZONEMUSIC/TavernTauren/RA_TaurenRestArea2A.mp3,False,legacy-folder
+music-53771,Tauren Rest Area 2b,Tauren Taverns,World of Warcraft: Forever,53771,Sound/music/ZONEMUSIC/TavernTauren/RA_TaurenRestArea2B.mp3,False,legacy-folder
+music-53772,Tauren Rest Area 3a,Tauren Taverns,World of Warcraft: Forever,53772,Sound/music/ZONEMUSIC/TavernTauren/RA_TaurenRestArea3A.mp3,False,legacy-folder
+music-53773,Tauren Rest Area 3b,Tauren Taverns,World of Warcraft: Forever,53773,Sound/music/ZONEMUSIC/TavernTauren/RA_TaurenRestArea3B.mp3,False,legacy-folder
 music-8158754,Thendal Village A,Thendal Village,World of Warcraft: Forever,8158754,Sound/Music/Forever/MUS_C60_Thendal_Village_A.mp3,False,forever-filename-association
 music-8158756,Thendal Village B,Thendal Village,World of Warcraft: Forever,8158756,Sound/Music/Forever/MUS_C60_Thendal_Village_B.mp3,False,forever-filename-association
 music-8246692,Thendal Village C,Thendal Village,World of Warcraft: Forever,8246692,Sound/Music/Forever/MUS_C60_Thendal_Village_C.mp3,False,forever-filename-association
 music-8246694,Thendal Village D,Thendal Village,World of Warcraft: Forever,8246694,Sound/Music/Forever/MUS_C60_Thendal_Village_D.mp3,False,forever-filename-association
-music-8180995,Thunder Bluff Introduction,Thunder Bluff,World of Warcraft: Forever,8180995,Sound/Music/Forever/MUS_C_Thunder_Bluff_Intro.mp3,False,forever-filename-association
-music-8180997,Thunder Bluff Walking 1,Thunder Bluff,World of Warcraft: Forever,8180997,Sound/Music/Forever/MUS_C_Thunder_Bluff_Walking_1.mp3,False,forever-filename-association
-music-8180999,Thunder Bluff Walking 2,Thunder Bluff,World of Warcraft: Forever,8180999,Sound/Music/Forever/MUS_C_Thunder_Bluff_Walking_2.mp3,False,forever-filename-association
-music-8181001,Thunder Bluff Walking 3,Thunder Bluff,World of Warcraft: Forever,8181001,Sound/Music/Forever/MUS_C_Thunder_Bluff_Walking_3.mp3,False,forever-filename-association
+music-53212,Thunder Bluff Introduction,Thunder Bluff,World of Warcraft: Forever,53212,Sound/music/CityMusic/Thunderbluff/Thunderbluff Intro.mp3,False,legacy-folder
+music-53213,Thunder Bluff Walking (Variation 1),Thunder Bluff,World of Warcraft: Forever,53213,Sound/music/CityMusic/Thunderbluff/Thunderbluff Walking 01.mp3,False,legacy-folder
+music-53214,Thunder Bluff Walking (Variation 2),Thunder Bluff,World of Warcraft: Forever,53214,Sound/music/CityMusic/Thunderbluff/Thunderbluff Walking 02.mp3,False,legacy-folder
+music-53215,Thunder Bluff Walking (Variation 3),Thunder Bluff,World of Warcraft: Forever,53215,Sound/music/CityMusic/Thunderbluff/Thunderbluff Walking 03.mp3,False,legacy-folder
 music-8158728,Twilights Shroud A,Twilight's Shroud,World of Warcraft: Forever,8158728,Sound/Music/Forever/MUS_C60_Twilights_Shroud_A.mp3,False,forever-filename-association
 music-8158730,Twilights Shroud B,Twilight's Shroud,World of Warcraft: Forever,8158730,Sound/Music/Forever/MUS_C60_Twilights_Shroud_B.mp3,False,forever-filename-association
 music-8269366,Twilights Shroud C,Twilight's Shroud,World of Warcraft: Forever,8269366,Sound/Music/Forever/MUS_C60_Twilights_Shroud_C.mp3,False,forever-filename-association
 music-8269368,Twilights Shroud D,Twilight's Shroud,World of Warcraft: Forever,8269368,Sound/Music/Forever/MUS_C60_Twilights_Shroud_D.mp3,False,forever-filename-association
-music-8181003,Undercity 1,Undercity,World of Warcraft: Forever,8181003,Sound/Music/Forever/MUS_C_Undercity_1.mp3,False,forever-filename-association
-music-8181005,Undercity 2,Undercity,World of Warcraft: Forever,8181005,Sound/Music/Forever/MUS_C_Undercity_2.mp3,False,forever-filename-association
-music-8181007,Undercity 3,Undercity,World of Warcraft: Forever,8181007,Sound/Music/Forever/MUS_C_Undercity_3.mp3,False,forever-filename-association
+music-53774,Undead Tavern 1a,Undead Taverns,World of Warcraft: Forever,53774,Sound/music/ZONEMUSIC/TavernUndead/RA_UndeadTavern1A.mp3,False,legacy-folder
+music-53775,Undead Tavern 1b,Undead Taverns,World of Warcraft: Forever,53775,Sound/music/ZONEMUSIC/TavernUndead/RA_UndeadTavern1B.mp3,False,legacy-folder
+music-53776,Undead Tavern 2,Undead Taverns,World of Warcraft: Forever,53776,Sound/music/ZONEMUSIC/TavernUndead/RA_UndeadTavern2.mp3,False,legacy-folder
+music-53777,Undead Tavern 3a,Undead Taverns,World of Warcraft: Forever,53777,Sound/music/ZONEMUSIC/TavernUndead/RA_UndeadTavern3A.mp3,False,legacy-folder
+music-53778,Undead Tavern 3b,Undead Taverns,World of Warcraft: Forever,53778,Sound/music/ZONEMUSIC/TavernUndead/RA_UndeadTavern3B.mp3,False,legacy-folder
+music-53216,Undercity 01 Zone,Undercity,World of Warcraft: Forever,53216,Sound/music/CityMusic/Undercity/undercity01-zone.mp3,False,legacy-folder
+music-53217,Undercity 02 Zone,Undercity,World of Warcraft: Forever,53217,Sound/music/CityMusic/Undercity/undercity02-zone.mp3,False,legacy-folder
+music-53218,Undercity 03 Zone,Undercity,World of Warcraft: Forever,53218,Sound/music/CityMusic/Undercity/undercity03-zone.mp3,False,legacy-folder
+music-53219,Undercity Introduction Moment,Undercity,World of Warcraft: Forever,53219,Sound/music/CityMusic/Undercity/undercityintro-moment.mp3,False,legacy-folder
 music-8175596,Valanaar A,Valanaar,World of Warcraft: Forever,8175596,Sound/Music/Forever/MUS_C60_Valanaar_A.mp3,False,forever-filename-association
 music-8175598,Valanaar B,Valanaar,World of Warcraft: Forever,8175598,Sound/Music/Forever/MUS_C60_Valanaar_B.mp3,False,forever-filename-association
 music-8175600,Valanaar C,Valanaar,World of Warcraft: Forever,8175600,Sound/Music/Forever/MUS_C60_Valanaar_C.mp3,False,forever-filename-association

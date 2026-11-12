@@ -10,6 +10,7 @@ import json
 import re
 from collections import Counter
 from pathlib import Path
+from catalog_identity import normalized_identity
 
 ROOT = Path(__file__).resolve().parents[1]
 ADDON = ROOT / 'MusicSCAN'
@@ -80,14 +81,58 @@ def main():
                             expansion='World of Warcraft: Forever', fileDataID=int(file_id),
                             sourceFilename=filename, playbackVerified=False,
                             mappingSource='forever-filename-association'))
-    ids = original_ids + [r['fileDataID'] for r in records]
-    keys = original_keys + [r['key'] for r in records]
+    original_records = []
+    for line in originals:
+        original_records.append({key: json.loads(value) for key, value in re.findall(
+            r'(\w+)=("(?:[^"\\]|\\.)*"|false|true|\d+)', line)})
+    originals_by_id = {r['fileDataID']: r for r in original_records}
+    identity_index = {}
+    for record in original_records:
+        for identity in {normalized_identity(record['sourceFilename']), normalized_identity(record['title'])}:
+            identity_index.setdefault(identity, {})[record['fileDataID']] = record
+    overrides = json.loads((ROOT / 'tools/catalog-duplicate-overrides.json').read_text(encoding='utf-8'))
+    duplicates, kept = [], []
+    applied_overrides = set()
+    for record in records:
+        matches = {}
+        for identity in {normalized_identity(record['sourceFilename']), normalized_identity(record['title'])}:
+            matches.update(identity_index.get(identity, {}))
+        override = overrides.get(str(record['fileDataID']))
+        if override:
+            canonical = originals_by_id[override['canonicalID']]
+            if matches and set(matches) != {canonical['fileDataID']}:
+                raise SystemExit('Duplicate override conflicts with normalized identity.')
+            reason = override['reason']
+            applied_overrides.add(str(record['fileDataID']))
+        elif len(matches) == 1:
+            canonical = next(iter(matches.values()))
+            reason = 'exact-normalized-filename-or-title'
+        elif matches:
+            raise SystemExit(f'Ambiguous duplicate identity: {record["sourceFilename"]}')
+        else:
+            kept.append(record)
+            continue
+        duplicates.append(dict(aliasID=record['fileDataID'], canonicalID=canonical['fileDataID'],
+                               aliasKey=record['key'], canonicalKey=canonical['key'],
+                               aliasTitle=record['title'], canonicalTitle=canonical['title'],
+                               aliasPath=record['sourceFilename'], canonicalPath=canonical['sourceFilename'],
+                               reason=reason))
+    if applied_overrides != set(overrides):
+        raise SystemExit('A reviewed duplicate override no longer matches the source; review it.')
+    original_count, source_forever_count = len(original_records), len(records)
+    for record in original_records:
+        record['expansion'] = 'World of Warcraft: Forever'
+    records = original_records + kept
+    ids = [r['fileDataID'] for r in records]
+    keys = [r['key'] for r in records]
     assert len(ids) == len(set(ids)) and len(keys) == len(set(keys))
+    # Variations remain distinct: compare full normalized titles, including numbers/day/night.
+    display_identities = [(normalized_identity(r['zone']), normalized_identity(r['title'])) for r in records]
+    assert len(display_identities) == len(set(display_identities)), 'Repeated named catalog entry'
     records.sort(key=lambda r: (r['zone'].lower(), r['title'].lower(), r['fileDataID']))
     text = ('-- MusicSCAN Forever alpha: metadata only; no bundled audio.\n'
             '-- Filename-derived labels are provisional; see SOURCES.md.\nlocal _, ns = ...\n\n'
-            'ns.ExpansionOrder = { ["Original World of Warcraft"] = 1, ["World of Warcraft: Forever"] = 2 }\n\nns.Catalog = {\n')
-    text += '\n'.join(originals) + '\n'
+            'ns.ExpansionOrder = { ["World of Warcraft: Forever"] = 1 }\n\nns.Catalog = {\n')
     for record in records:
         fields = []
         for key, value in record.items():
@@ -95,6 +140,14 @@ def main():
             fields.append(f'{key}={encoded}')
         text += '    {' + ', '.join(fields) + '},\n'
     text += '}\n\nns.DEFAULT_TRACK_KEY = ' + lua_string(original_keys[0]) + '\n'
+    text += '\n-- Metadata-equivalent legacy/Forever files share one browser row; old saved IDs still resolve.\n'
+    text += 'ns.FileIDAliases = {\n'
+    for pair in sorted(duplicates, key=lambda r: r['aliasID']):
+        text += f'    [{pair["aliasID"]}] = {pair["canonicalID"]},\n'
+    text += '}\nns.TrackKeyAliases = {\n'
+    for pair in sorted(duplicates, key=lambda r: r['aliasKey']):
+        text += f'    [{lua_string(pair["aliasKey"])}] = {lua_string(pair["canonicalKey"])},\n'
+    text += '}\n'
     (ADDON / 'Database.lua').write_text(text, encoding='utf-8')
     with (ROOT / 'catalog/FOREVER-CATALOG.csv').open('w', newline='', encoding='utf-8') as handle:
         writer = csv.DictWriter(handle, fieldnames=list(records[0]))
@@ -102,11 +155,21 @@ def main():
         writer.writerows(records)
     manifest_path = ROOT / 'catalog/CATALOG-SOURCE.json'
     manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
-    manifest.update(originalCount=len(originals), foreverCount=len(records), total=len(ids),
+    version = re.search(r'^## Version: (.+)$', (ADDON / 'MusicSCAN.toc').read_text(), re.M)[1].strip()
+    manifest.update(version=version, originalCount=original_count, foreverCount=len(kept), total=len(ids),
+                    sourceForeverCount=source_forever_count, duplicateCount=len(duplicates),
+                    categoryCount=1, identityBasis='normalized-metadata-and-reviewed-filename-aliases',
+                    audioContentCompared=False,
                     excludedCount=len(excluded), excluded=excluded,
                     zoneCounts=dict(sorted(Counter(r['zone'] for r in records).items())))
     manifest_path.write_text(json.dumps(manifest, indent=2), encoding='utf-8')
-    print(f'Built {len(ids)} entries: {len(originals)} original + {len(records)} Forever; {len(excluded)} excluded.')
+    with (ROOT / 'catalog/DUPLICATE-AUDIT.csv').open('w', newline='', encoding='utf-8') as handle:
+        writer = csv.DictWriter(handle, fieldnames=['aliasID','canonicalID','aliasKey','canonicalKey',
+                                                   'aliasTitle','canonicalTitle','aliasPath','canonicalPath','reason'])
+        writer.writeheader()
+        writer.writerows(sorted(duplicates, key=lambda r: r['canonicalID']))
+    print(f'Built {len(ids)} entries in one Forever category: {original_count} original + {len(kept)} additional; '
+          f'{len(duplicates)} metadata duplicates consolidated; {len(excluded)} cues excluded.')
 
 if __name__ == '__main__':
     main()

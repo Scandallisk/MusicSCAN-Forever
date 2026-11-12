@@ -1,10 +1,13 @@
-# MusicSCAN 0.7.1-forever-alpha.2
+# MusicSCAN 0.7.1-forever-alpha.3
 
 Local test build for World of Warcraft: Forever 1.60.1.70888 (interface 16001).
 
-Browse 200 Original World of Warcraft tracks and 370 Forever-file music entries.
-Removed the eleven Retail expansion categories from this build. Forever-file variants
-remain under World of Warcraft: Forever even when their filenames reference older locations.
+Browse 415 entries in one World of Warcraft: Forever category: all 200 original
+music IDs plus 215 additional Forever-file candidates. Alpha.3 consolidates 155
+metadata-equivalent original/Forever pairs, including 17 repeated Ahn'Qiraj entries.
+Original IDs remain canonical for those pairs; saved alternate IDs still resolve.
+Removed the eleven Retail expansion categories from this build. All retained tracks now appear under World of Warcraft: Forever, including the
+original tracks. Metadata matching is not proof of identical audio recordings.
 This is a metadata-based test catalog, not a fully verified soundtrack or complete zone list.
 
 Use /msc or /musicscan to open the player. Select a track, then press Play.
@@ -19,7 +22,9 @@ expansion-category music tested there did not play. New Forever IDs still need l
 If a track is silent or mislabeled, report its title, zone and tooltip FileDataID.
 The Playing label records an accepted request and cannot independently verify audible output.
 
-Preferences use MusicSCANDB. Missing-catalog Favorite IDs are retained but hidden.
+Preferences use MusicSCANDB. Consolidated duplicate IDs share one Favorite row;
+removing that Favorite clears both IDs. Unrelated missing-catalog Favorite IDs are
+retained but hidden. No SavedVariables file is deleted.
 An unavailable saved selection falls back to a retained original track. No bundled audio,
 external streaming, dependencies, timers for repetition, progress bar, or seeking.
 

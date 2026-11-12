@@ -1,34 +1,34 @@
-MusicSCAN 0.7.1-forever-alpha.2 — Local test record
-Prepared and installed November 12, 2026.
-Target: Forever 1.60.1.70888; interface 16001.
+MusicSCAN 0.7.1-forever-alpha.3 — Validation record
+Prepared November 12, 2026. Target: Forever 1.60.1.70888; interface 16001.
 
-Catalog: 200 unchanged Original WoW records + 370 Forever-folder candidates = 570.
-Removed: 5,293 Retail expansion records (eleven categories).
-Excluded: 17 event/character-intro or nonbackground cue candidates.
-Provenance and exclusions: CATALOG-SOURCE.json; new entries: FOREVER-CATALOG.csv.
+Catalog audit:
+- Alpha.2 input: 570 rows (200 Original WoW + 370 Forever-folder candidates).
+- No repeated numeric IDs existed, but 155 metadata-equivalent pairs were separate rows.
+- 136 normalized filename/title matches; 19 explicitly reviewed naming aliases.
+- Ahn'Qiraj: 17 duplicate pairs; final 18 rows (17 originals plus Ruins Triangle Room).
+- All 200 original keys, FileDataIDs, titles and source metadata retained; category moved.
+- Final: one World of Warcraft: Forever category, 415 rows (200 original + 215 additional).
+- Pair-level evidence and reasons: catalog/DUPLICATE-AUDIT.csv.
+- No repeated current keys, numeric IDs, normalized source stems, or zone/title identities.
+- Distinct lettered, numbered, day/night and intro/zone variants remain separate.
 
-Validation:
-- Original 5,493-track mocked regression suite passed under Lua 5.4.
-- Updated alpha passed Lua 5.1 and 5.4 mocked catalog/persistence/viewport/recovery checks.
-- Repeated updated checks with the Monk class-color entry absent: passed.
-- Original 200 records match source exactly; FileDataIDs and selection keys remain stable.
-- Removed Favorite IDs retained; unavailable selection falls back to an original track.
-- ZIP integrity, eight-file package structure and catalog counts checked.
-- Existing installed alpha.1 matched prior artifact before replacement.
-- Alpha.1 backup hashes checked; all eight installed alpha.2 files hash-match prepared build.
+Automated validation:
+- Four metadata audit tests passed, including preservation of all original records.
+- Mocked Lua 5.1/5.4 suite passed with and without Monk class-color availability.
+- All 155 aliases tested for resolving selection, preserving Favorites, showing one
+  Favorite when both IDs were saved, and clearing both IDs on remove.
+- Loading recovery, stale callback rejection, Stop/Play priority, muted/failed audio,
+  no autoplay, bounded rows, literal search and geometry checks remain covered.
+- Catalog regeneration must be byte-identical across repeated runs; package has eight files.
 
-Backup: outputs/MusicSCAN-Forever-before-alpha.2/MusicSCAN
-Retail checkout, Retail installation and WTF/SavedVariables files were not edited.
+In-game validation remains pending for alpha.3. Alpha.1 player/original music were
+confirmed by the user. Alpha.2 screenshot shows the actual UI; new Forever candidates
+have not received a complete listening review. No claim of complete zone coverage.
 
-In-game tests pending:
-1. /reload; /msc; verify version alpha.2 and two categories plus Favorites.
-2. Play an original track, then Hyjal General A (8158670), Riverglades General A
-   (8158714), Summit of Eternity A (8158682), and Sunnyglade A (8173719).
-3. Verify each is audible; select a different row while playing and confirm audio stays.
-4. Favorite a new track, /reload, verify persistence and no autoplay.
-5. Play a new track, cross a loading screen, verify active-track restart; test Stop.
-Report silence or wrong music by displayed title and tooltip FileDataID.
+Identity limitation: metadata matching cannot establish identical audio recordings.
+Different IDs for the same named track may represent different encodes or arrangements.
+This build shows one representative per reviewed identity, using original IDs because
+original playback is confirmed. The alternate Forever IDs remain documented as aliases.
+The installed client root manifest and zone-music table joins remain unchecked.
 
-Limitations: New IDs and labels derive from pinned community filenames, not a full
-installed-client manifest or zone-music-table comparison. No new bulk listening test
-has occurred. The catalog is a test candidate set and is not claimed exhaustive.
+See CLIENT-TEST.md for focused post-install checks. Retail/WTF files are not edited.

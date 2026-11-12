@@ -2,7 +2,7 @@
 ## Title: MusicSCAN
 ## Notes: Listen your way with MusicSCAN. A minimalist player for built-in WoW music.
 ## Author: SCAN | Kilobytes Development
-## Version: 0.7.1-forever-alpha.2
+## Version: 0.7.1-forever-alpha.3
 ## SavedVariables: MusicSCANDB
 ## IconTexture: Interface\Icons\inv_holiday_brewfestbuff_01
 ## X-Website: https://kilobytes.dev/musicscan/
