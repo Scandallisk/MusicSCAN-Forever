@@ -7,14 +7,13 @@ Developed by **SCAN | Kilobytes Development**. Based on
 [MusicSCAN](https://github.com/Scandallisk/MusicSCAN) 0.7.1 BETA.
 This repository maintains the Forever target separately from Retail.
 
-## Public beta candidate
+## Public beta release
 
 **0.7.1-forever-beta.1**, targeting Forever **1.60.1.70888**, interface **16001**.
-This is the first public beta candidate, prepared as a draft GitHub prerelease.
+Published November 12, 2026 as a GitHub beta prerelease.
+[Download the installable ZIP](https://github.com/Scandallisk/MusicSCAN-Forever/releases/download/v0.7.1-forever-beta.1/MusicSCAN-0.7.1-forever-beta.1.zip) · [Release notes](https://github.com/Scandallisk/MusicSCAN-Forever/releases/tag/v0.7.1-forever-beta.1)
 The source repository is public; the addon remains All Rights Reserved.
-See [release notes](docs/RELEASE-NOTES.md) for features, installation and known limits.
-Installable packages will appear under [GitHub Releases](https://github.com/Scandallisk/MusicSCAN-Forever/releases)
-when the prerelease is published. Draft release assets are visible only to repository maintainers.
+See the release notes for installation, feedback instructions and known limits.
 
 - One **World of Warcraft: Forever** category with **415 catalog entries**.
 - All 200 original music IDs retained and moved into the Forever category.

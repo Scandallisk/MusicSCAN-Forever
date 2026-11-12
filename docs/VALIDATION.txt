@@ -36,4 +36,9 @@ See CLIENT-TEST.md for focused post-install checks. Retail/WTF files are not edi
 Beta preparation: version labels/TOC release type and player/release documentation
 updated; no playback or catalog-membership changes from alpha.3. Local Lua and catalog
 tests rerun before packaging. Catalog regeneration and ZIP structure/integrity checked.
-GitHub prerelease is prepared as a draft; publication is a separate step.
+GitHub prerelease v0.7.1-forever-beta.1 was published November 12, 2026.
+Release source commit: 110ecbd5d8d286113e83dd0f292b634599833388.
+GitHub validation passed; eight packaged files exactly match that commit.
+The anonymous public ZIP download was checksum-verified after publication.
+ZIP SHA256: c4207c9937b7c87ee0185ddee64b7e0b9ddbabd773bad697f1bd6e5a3cefe68c
+Release assets and tagged source remain unchanged by subsequent documentation updates.
