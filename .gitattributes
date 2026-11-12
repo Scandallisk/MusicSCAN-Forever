@@ -4,4 +4,6 @@
 *.md text eol=lf
 *.json text eol=lf
 *.toc text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf
 *.csv text eol=crlf
