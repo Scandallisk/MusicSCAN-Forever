@@ -1,4 +1,11 @@
-# MusicSCAN Forever test history
+# MusicSCAN Forever history
+
+## 0.7.1-forever-beta.1 — First public beta candidate
+- Promote the audited alpha.3 runtime/catalog without playback or catalog-membership changes.
+- Identify the package as MusicSCAN Forever in the AddOns list; folder and SavedVariables stay unchanged.
+- Prepare installable ZIP, checksum, release notes and a draft GitHub prerelease.
+- Source repository made public; All Rights Reserved terms remain unchanged.
+- Retain 415 entries and all 155 duplicate-ID aliases; additional Forever listening tests remain pending.
 
 ## 0.7.1-forever-alpha.3
 - Audit and consolidate 155 metadata-equivalent original/Forever pairs (136 normalized

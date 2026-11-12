@@ -1,6 +1,6 @@
-# MusicSCAN 0.7.1-forever-alpha.3
+# MusicSCAN 0.7.1-forever-beta.1
 
-Local test build for World of Warcraft: Forever 1.60.1.70888 (interface 16001).
+Public beta candidate for World of Warcraft: Forever 1.60.1.70888 (interface 16001).
 
 Browse 415 entries in one World of Warcraft: Forever category: all 200 original
 music IDs plus 215 additional Forever-file candidates. Alpha.3 consolidates 155
@@ -29,3 +29,9 @@ An unavailable saved selection falls back to a retained original track. No bundl
 external streaming, dependencies, timers for repetition, progress bar, or seeking.
 
 SCAN | Kilobytes Development — https://kilobytes.dev/musicscan/
+
+Beta 1 retains the alpha.3 playback/catalog behavior. The AddOns list title is
+MusicSCAN Forever; the runtime folder remains MusicSCAN. Additional Forever candidates
+still await listening verification. Report title, location, FileDataID and client build at
+https://github.com/Scandallisk/MusicSCAN-Forever/issues
+All Rights Reserved; see LICENSE.txt. No bundled Blizzard audio.

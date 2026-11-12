@@ -165,7 +165,7 @@ local events
 for _,f in ipairs(frames) do if f.events.ADDON_LOADED then events=f;break end end
 assert(events)
 events.scripts.OnEvent(events,"ADDON_LOADED","MusicSCAN")
-assert(ns.VERSION=="0.7.1-forever-alpha.3" and #ns.Catalog==415)
+assert(ns.VERSION=="0.7.1-forever-beta.1" and #ns.Catalog==415)
 assert(ns.GetSelectedTrack().expansion=="World of Warcraft: Forever")
 assert(not ns.State.playing and #engineCalls==0)
 assert(ns.DB.favorites[936340] and ns.DB.favorites[8158670] and ns.DB.favorites[999999999])

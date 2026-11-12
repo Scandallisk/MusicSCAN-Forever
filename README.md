@@ -7,10 +7,14 @@ Developed by **SCAN | Kilobytes Development**. Based on
 [MusicSCAN](https://github.com/Scandallisk/MusicSCAN) 0.7.1 BETA.
 This repository maintains the Forever target separately from Retail.
 
-## Current test build
+## Public beta candidate
 
-**0.7.1-forever-alpha.3**, targeting Forever **1.60.1.70888**, interface **16001**.
-This is an alpha test build; a public beta release has not been published here.
+**0.7.1-forever-beta.1**, targeting Forever **1.60.1.70888**, interface **16001**.
+This is the first public beta candidate, prepared as a draft GitHub prerelease.
+The source repository is public; the addon remains All Rights Reserved.
+See [release notes](docs/RELEASE-NOTES.md) for features, installation and known limits.
+Installable packages will appear under [GitHub Releases](https://github.com/Scandallisk/MusicSCAN-Forever/releases)
+when the prerelease is published. Draft release assets are visible only to repository maintainers.
 
 - One **World of Warcraft: Forever** category with **415 catalog entries**.
 - All 200 original music IDs retained and moved into the Forever category.
@@ -31,9 +35,12 @@ Report silent/mislabeled entries with displayed title, location, FileDataID and 
 
 ## Install
 
-Copy the repository's **MusicSCAN/** folder into your Forever client's
+For a packaged build, extract the installable ZIP and copy its **MusicSCAN/** folder
+into your Forever client's
 **Interface/AddOns/** directory, so MusicSCAN.toc is directly inside MusicSCAN/.
-Do not install the entire repository as the addon folder. Start/restart the client,
+The folder name must stay **MusicSCAN**, even though the AddOns list title is
+**MusicSCAN Forever**. Do not install the entire source repository as the addon folder.
+This package is specifically for Forever; retain Retail's separate package in its own client. Start/restart the client,
 enable MusicSCAN, then use `/msc`, `/musicscan`, or the minimap button.
 Select a track and press Play. Stop releases the override to normal zone music.
 The star targets the selected track; selection alone does not switch playback.

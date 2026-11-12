@@ -1,4 +1,4 @@
-MusicSCAN 0.7.1-forever-alpha.3 — Validation record
+MusicSCAN 0.7.1-forever-beta.1 — Validation record
 Prepared November 12, 2026. Target: Forever 1.60.1.70888; interface 16001.
 
 Catalog audit:
@@ -21,7 +21,7 @@ Automated validation:
   no autoplay, bounded rows, literal search and geometry checks remain covered.
 - Catalog regeneration must be byte-identical across repeated runs; package has eight files.
 
-In-game validation remains pending for alpha.3. Alpha.1 player/original music were
+Beta 1 retains alpha.3 behavior; further in-game validation remains pending. Alpha.1 player/original music were
 confirmed by the user. Alpha.2 screenshot shows the actual UI; new Forever candidates
 have not received a complete listening review. No claim of complete zone coverage.
 
@@ -32,3 +32,8 @@ original playback is confirmed. The alternate Forever IDs remain documented as a
 The installed client root manifest and zone-music table joins remain unchecked.
 
 See CLIENT-TEST.md for focused post-install checks. Retail/WTF files are not edited.
+
+Beta preparation: version labels/TOC release type and player/release documentation
+updated; no playback or catalog-membership changes from alpha.3. Local Lua and catalog
+tests rerun before packaging. Catalog regeneration and ZIP structure/integrity checked.
+GitHub prerelease is prepared as a draft; publication is a separate step.

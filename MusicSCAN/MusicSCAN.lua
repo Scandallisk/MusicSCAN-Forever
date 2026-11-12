@@ -1,7 +1,7 @@
 -- Core: initialization, catalog access, playback, preferences and slash commands.
 local addonName, ns = ...
 
-ns.VERSION = "0.7.1-forever-alpha.3"
+ns.VERSION = "0.7.1-forever-beta.1"
 ns.AUTHOR = "SCAN | Kilobytes Development"
 ns.WEBSITE = "www.kilobytes.dev"
 ns.ICON = "Interface\\Icons\\inv_holiday_brewfestbuff_01"
