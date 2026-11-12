@@ -1,0 +1,153 @@
+{
+  "version": "0.7.1-forever-alpha.2",
+  "clientBuild": "1.60.1.70888",
+  "interface": 16001,
+  "sourceURL": "https://raw.githubusercontent.com/wowdev/wow-listfile/deeca4ac550d28d49f38be5248367a0b2eceb840/parts/sound.csv",
+  "sourceSHA256": "0ce7afe81799443daa809b6287dc5cbddd11c78e06fa22e0830a05e2958c6a83",
+  "originalCount": 200,
+  "foreverCount": 370,
+  "total": 570,
+  "excludedCount": 17,
+  "excluded": [
+    {
+      "fileDataID": 8180882,
+      "sourceFilename": "Sound/Music/Forever/MUS_C_Stormwind_High_Seas_Moment.mp3",
+      "reason": "event-character-intro-or-nonbackground-cue"
+    },
+    {
+      "fileDataID": 8180884,
+      "sourceFilename": "Sound/Music/Forever/MUS_C_Stormwind_Intro_Moment.mp3",
+      "reason": "event-character-intro-or-nonbackground-cue"
+    },
+    {
+      "fileDataID": 8180953,
+      "sourceFilename": "Sound/Music/Forever/MUS_C_Magic_1_Moment.mp3",
+      "reason": "event-character-intro-or-nonbackground-cue"
+    },
+    {
+      "fileDataID": 8180993,
+      "sourceFilename": "Sound/Music/Forever/MUS_C_Undead_Dance.mp3",
+      "reason": "event-character-intro-or-nonbackground-cue"
+    },
+    {
+      "fileDataID": 8181009,
+      "sourceFilename": "Sound/Music/Forever/MUS_C_Undercity_Intro_Moment.mp3",
+      "reason": "event-character-intro-or-nonbackground-cue"
+    },
+    {
+      "fileDataID": 8181031,
+      "sourceFilename": "Sound/Music/Forever/MUS_C_Orgrimmar_1_Moment.mp3",
+      "reason": "event-character-intro-or-nonbackground-cue"
+    },
+    {
+      "fileDataID": 8181035,
+      "sourceFilename": "Sound/Music/Forever/MUS_C_Orgrimmar_2_Moment.mp3",
+      "reason": "event-character-intro-or-nonbackground-cue"
+    },
+    {
+      "fileDataID": 8181039,
+      "sourceFilename": "Sound/Music/Forever/MUS_C_Orgrimmar_Intro_Moment.mp3",
+      "reason": "event-character-intro-or-nonbackground-cue"
+    },
+    {
+      "fileDataID": 8181317,
+      "sourceFilename": "Sound/Music/Forever/MUS_C_Tinkertown_Intro_Moment.mp3",
+      "reason": "event-character-intro-or-nonbackground-cue"
+    },
+    {
+      "fileDataID": 8181333,
+      "sourceFilename": "Sound/Music/Forever/MUS_C_Spooky_1_Moment.mp3",
+      "reason": "event-character-intro-or-nonbackground-cue"
+    },
+    {
+      "fileDataID": 8181339,
+      "sourceFilename": "Sound/Music/Forever/MUS_C60_Darkmoon_Faire.mp3",
+      "reason": "event-character-intro-or-nonbackground-cue"
+    },
+    {
+      "fileDataID": 8200682,
+      "sourceFilename": "Sound/Music/Forever/MUS_C_Zalazanes_Fall_1.mp3",
+      "reason": "event-character-intro-or-nonbackground-cue"
+    },
+    {
+      "fileDataID": 8200684,
+      "sourceFilename": "Sound/Music/Forever/MUS_C_Zalazanes_Fall_2.mp3",
+      "reason": "event-character-intro-or-nonbackground-cue"
+    },
+    {
+      "fileDataID": 8200686,
+      "sourceFilename": "Sound/Music/Forever/MUS_C_Zalazanes_Fall_3.mp3",
+      "reason": "event-character-intro-or-nonbackground-cue"
+    },
+    {
+      "fileDataID": 8200688,
+      "sourceFilename": "Sound/Music/Forever/MUS_C_Zalazanes_Fall_4.mp3",
+      "reason": "event-character-intro-or-nonbackground-cue"
+    },
+    {
+      "fileDataID": 8232434,
+      "sourceFilename": "Sound/Music/Forever/MUS_C60_Skyborne_Intro.mp3",
+      "reason": "event-character-intro-or-nonbackground-cue"
+    },
+    {
+      "fileDataID": 8243231,
+      "sourceFilename": "Sound/Music/Forever/MUS_C60_Skyborne_Race_Intro.mp3",
+      "reason": "event-character-intro-or-nonbackground-cue"
+    }
+  ],
+  "zoneCounts": {
+    "Ahn'Qiraj": 18,
+    "Bolderok": 4,
+    "Bone Wastes (Filename Association)": 4,
+    "Cradle of Tranquility": 3,
+    "Daegun": 4,
+    "Dalaran": 10,
+    "Darnassus": 5,
+    "Dungeons: Alpine": 4,
+    "Dungeons: Battle Boss": 4,
+    "Dungeons: Forest": 4,
+    "Dungeons: Horror": 4,
+    "Dungeons: Ruins": 4,
+    "Dungeons: Underground Percussive": 4,
+    "Dungeons: Wetlands": 4,
+    "Eastwind Shore": 3,
+    "Elderwild": 3,
+    "Farholde Keep": 5,
+    "Felblood Scar": 3,
+    "Freehold": 3,
+    "Gnomeregan": 2,
+    "Gustberry Lowlands": 4,
+    "Hyjal": 12,
+    "Ironforge": 5,
+    "Malorne's Retreat": 6,
+    "Mourning's Rest": 3,
+    "Naga Incursion": 3,
+    "Naxxramas": 6,
+    "Nerubian Nest": 2,
+    "Orgrimmar": 2,
+    "Other Zone Music": 148,
+    "Riplash": 5,
+    "Riverglades": 5,
+    "Rogmar Outpost": 4,
+    "Shadowgale Forest": 3,
+    "Shendar": 4,
+    "Sholazar (Filename Association)": 8,
+    "Shrine of Akir": 4,
+    "Shrine of Aviana": 4,
+    "Silken Path": 2,
+    "Stormwind": 8,
+    "Stranglethorn Vale": 4,
+    "Summit of Eternity": 4,
+    "Sunnyglade": 3,
+    "Tainted Foothills": 3,
+    "Thendal Village": 4,
+    "Thunder Bluff": 4,
+    "Twilight's Shroud": 4,
+    "Undercity": 3,
+    "Valanaar": 4,
+    "Weaver's Lair": 1,
+    "Wheeler's Grange": 3
+  },
+  "installedManifestChecked": false,
+  "bulkPlaybackVerified": false
+}

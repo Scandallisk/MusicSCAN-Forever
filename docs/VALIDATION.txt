@@ -1,0 +1,34 @@
+MusicSCAN 0.7.1-forever-alpha.2 — Local test record
+Prepared and installed November 12, 2026.
+Target: Forever 1.60.1.70888; interface 16001.
+
+Catalog: 200 unchanged Original WoW records + 370 Forever-folder candidates = 570.
+Removed: 5,293 Retail expansion records (eleven categories).
+Excluded: 17 event/character-intro or nonbackground cue candidates.
+Provenance and exclusions: CATALOG-SOURCE.json; new entries: FOREVER-CATALOG.csv.
+
+Validation:
+- Original 5,493-track mocked regression suite passed under Lua 5.4.
+- Updated alpha passed Lua 5.1 and 5.4 mocked catalog/persistence/viewport/recovery checks.
+- Repeated updated checks with the Monk class-color entry absent: passed.
+- Original 200 records match source exactly; FileDataIDs and selection keys remain stable.
+- Removed Favorite IDs retained; unavailable selection falls back to an original track.
+- ZIP integrity, eight-file package structure and catalog counts checked.
+- Existing installed alpha.1 matched prior artifact before replacement.
+- Alpha.1 backup hashes checked; all eight installed alpha.2 files hash-match prepared build.
+
+Backup: outputs/MusicSCAN-Forever-before-alpha.2/MusicSCAN
+Retail checkout, Retail installation and WTF/SavedVariables files were not edited.
+
+In-game tests pending:
+1. /reload; /msc; verify version alpha.2 and two categories plus Favorites.
+2. Play an original track, then Hyjal General A (8158670), Riverglades General A
+   (8158714), Summit of Eternity A (8158682), and Sunnyglade A (8173719).
+3. Verify each is audible; select a different row while playing and confirm audio stays.
+4. Favorite a new track, /reload, verify persistence and no autoplay.
+5. Play a new track, cross a loading screen, verify active-track restart; test Stop.
+Report silence or wrong music by displayed title and tooltip FileDataID.
+
+Limitations: New IDs and labels derive from pinned community filenames, not a full
+installed-client manifest or zone-music-table comparison. No new bulk listening test
+has occurred. The catalog is a test candidate set and is not claimed exhaustive.
