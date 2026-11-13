@@ -1,44 +1,8 @@
-MusicSCAN 0.7.1-forever-beta.1 — Validation record
-Prepared November 12, 2026. Target: Forever 1.60.1.70888; interface 16001.
-
-Catalog audit:
-- Alpha.2 input: 570 rows (200 Original WoW + 370 Forever-folder candidates).
-- No repeated numeric IDs existed, but 155 metadata-equivalent pairs were separate rows.
-- 136 normalized filename/title matches; 19 explicitly reviewed naming aliases.
-- Ahn'Qiraj: 17 duplicate pairs; final 18 rows (17 originals plus Ruins Triangle Room).
-- All 200 original keys, FileDataIDs, titles and source metadata retained; category moved.
-- Final: one World of Warcraft: Forever category, 415 rows (200 original + 215 additional).
-- Pair-level evidence and reasons: catalog/DUPLICATE-AUDIT.csv.
-- No repeated current keys, numeric IDs, normalized source stems, or zone/title identities.
-- Distinct lettered, numbered, day/night and intro/zone variants remain separate.
-
-Automated validation:
-- Four metadata audit tests passed, including preservation of all original records.
-- Mocked Lua 5.1/5.4 suite passed with and without Monk class-color availability.
-- All 155 aliases tested for resolving selection, preserving Favorites, showing one
-  Favorite when both IDs were saved, and clearing both IDs on remove.
-- Loading recovery, stale callback rejection, Stop/Play priority, muted/failed audio,
-  no autoplay, bounded rows, literal search and geometry checks remain covered.
-- Catalog regeneration must be byte-identical across repeated runs; package has eight files.
-
-Beta 1 retains alpha.3 behavior; further in-game validation remains pending. Alpha.1 player/original music were
-confirmed by the user. Alpha.2 screenshot shows the actual UI; new Forever candidates
-have not received a complete listening review. No claim of complete zone coverage.
-
-Identity limitation: metadata matching cannot establish identical audio recordings.
-Different IDs for the same named track may represent different encodes or arrangements.
-This build shows one representative per reviewed identity, using original IDs because
-original playback is confirmed. The alternate Forever IDs remain documented as aliases.
-The installed client root manifest and zone-music table joins remain unchecked.
-
-See CLIENT-TEST.md for focused post-install checks. Retail/WTF files are not edited.
-
-Beta preparation: version labels/TOC release type and player/release documentation
-updated; no playback or catalog-membership changes from alpha.3. Local Lua and catalog
-tests rerun before packaging. Catalog regeneration and ZIP structure/integrity checked.
-GitHub prerelease v0.7.1-forever-beta.1 was published November 12, 2026.
-Release source commit: 110ecbd5d8d286113e83dd0f292b634599833388.
-GitHub validation passed; eight packaged files exactly match that commit.
-The anonymous public ZIP download was checksum-verified after publication.
-ZIP SHA256: c4207c9937b7c87ee0185ddee64b7e0b9ddbabd773bad697f1bd6e5a3cefe68c
-Release assets and tagged source remain unchanged by subsequent documentation updates.
+0.8.0-forever-beta.1 beta validation, 2026-11-13
+Lua 5.1 and 5.4, Monk color present/absent: PASS (4 runs).
+Python catalog audit: PASS (4 tests).
+All 415 records and 155 aliases retained; Database.lua byte-identical to baseline.
+Theme counts: Cities43 Forests44 Taverns42 PvP16 Dungeons30 Raids57.
+Owner confirmed Next, Repeat and themed playlists work in Forever and authorized publication.
+Latest Forever test does not separately confirm every audio/transition scenario.
+Not every catalog entry or client build has been listened to/tested.

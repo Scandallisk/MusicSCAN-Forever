@@ -22,13 +22,20 @@ Forever filename metadata: wowdev/wow-listfile parts/sound.csv
   generated runtime aliases preserve old duplicate selections and Favorite IDs.
 - The source repository records all pairs in catalog/DUPLICATE-AUDIT.csv.
 
-Only audio FileDataIDs are passed to PlayMusic, never SoundKit IDs.
+Only audio FileDataIDs are passed to PlaySoundFile on Master, never SoundKit IDs.
 Friendly titles and locations are filename associations, not official soundtrack titles
 or verified zone-usage mappings. Unmapped themes appear under Other Zone Music.
 Some Forever filenames reference locations also named in Retail expansions; those are
 distinct Forever-folder IDs, not restoration of the removed Retail expansion categories.
 
-This alpha has not been checked against the installed client's root manifest or zone-music
+This catalog has not been checked against the installed client's root manifest or zone-music
 table joins, and the new IDs have not been audibly verified. Filename availability does not
 prove client availability, zone use, or complete new-zone coverage. Report silent/mislabeled
 entries by title, location and FileDataID. No audio files are downloaded or packaged.
+
+## 0.8 theme views
+
+Six reviewed zone/filename rule sets in tools/theme-rules.json generate Themes.lua
+from catalog/FOREVER-CATALOG.csv. Membership reasons are in catalog/THEME-AUDIT.csv.
+Views do not add music records or verify playback, and may overlap. Unknown zones
+remain accessible in All Music. The underlying catalog and aliases are unchanged.

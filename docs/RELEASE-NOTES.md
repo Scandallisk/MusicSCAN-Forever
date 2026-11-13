@@ -1,76 +1,97 @@
-# MusicSCAN Forever 0.7.1 Beta 1
-
-First public beta candidate for **World of Warcraft: Forever**.
-Version: **0.7.1-forever-beta.1** · Target client: **1.60.1.70888** · Interface: **16001**
-
-## What it does
-
-Play Blizzard's built-in music while exploring World of Warcraft: Forever.
-Browse one Forever category, search tracks and locations, save Favorites, and use
-explicit Play/Stop controls. The compact native window moves and resizes, and a
-draggable minimap launcher provides quick access. Loading-screen recovery restarts
-the active track from the beginning; login and reload never start playback automatically.
+# MusicSCAN Forever 0.8.0 BETA1
 
 **Less configuring. More listening.**
 
-## Catalog and changes
+Version **0.8.0-forever-beta.1** · Forever **1.60.1.70888** · Interface **16001**
 
-- **415 entries**: 200 retained original music IDs and 215 additional Forever-file candidates.
-- All tracks appear in **World of Warcraft: Forever**, followed by Favorites.
-- 155 metadata-equivalent original/Forever pairs consolidated, including 17 Ahn'Qiraj pairs.
-- Saved selections and Favorites using a consolidated ID resolve to the retained original row.
-- Distinct numbered, lettered, day/night and intro/zone variations remain separate.
-- The eleven unavailable Retail expansion categories remain excluded from this target.
-- AddOns-list title identifies the package as MusicSCAN Forever; runtime folder stays MusicSCAN.
-- This beta promotion changes versioning and documentation, not playback or catalog membership.
+## What's new
 
-## Install or update
+- Split-screen library sidebar and track pane with independent scrolling.
+- Six themed playlists: Cities **43**, Forests **44**, Taverns **42**, PvP **16**,
+  Dungeons **30**, Raids **57**.
+- All **415** deduplicated catalog records and **155** saved-track aliases retained.
+- Play captures the current ordered library/search results as a fixed queue.
+- Automatic Next and the Next button advance through the queue and wrap at the end.
+- Repeat ON repeats the active track; OFF automatically advances. Next always advances.
+- Browsing, search, highlighted selection and Favorite edits leave the queue unchanged.
+- Repeat/loading recovery retain an independently highlighted selection. Favorites
+  target that highlighted row. Login/reload stay idle; closing the window keeps playback.
 
-1. Download **MusicSCAN-0.7.1-forever-beta.1.zip** (the installable ZIP).
-2. Exit WoW. Extract the ZIP into your Forever client's `Interface/AddOns/` directory.
-3. Confirm `Interface/AddOns/MusicSCAN/MusicSCAN.toc` exists directly at that path.
-4. Start Forever, enable **MusicSCAN Forever**, then enter `/msc` or `/musicscan`.
-5. Select a track, then press Play. Press Stop to return control to normal zone music.
+## Audio behavior — please read
 
-When upgrading, replace the existing MusicSCAN addon folder while preserving your
-WTF/SavedVariables files. Do not delete MusicSCANDB or install a second folder alongside
-MusicSCAN: preferences use the same addon identity. This package targets Forever only.
-GitHub's automatic “Source code” archives are developer snapshots, not the installable ZIP.
+Selected music follows **Master Volume**. MusicSCAN temporarily sets only **Music
+Volume** to zero to suppress normal zone music, retaining its previous value.
+Stop, failure, logout/reload and loading suspension restore it; loading recovery
+reacquires suppression. Other sliders are unchanged. Music-slider changes made
+during playback are respected on Stop. Raising Music Volume during playback can
+make zone music audible again. Use **/msc restore** to stop and retry pending
+restoration. After a hard crash, restore Music Volume manually if necessary.
 
-Commands: `/msc` toggles the window; `/msc play`, `/msc stop`, `/msc help`, and
-`/msc reset` are also available. Reset preserves Favorites and selection.
-Select alone does not switch the active music. Closing the window does not stop playback.
+A sound-handle watcher runs only during playback. No guessed durations. Handles
+never observed playing time out after 30 seconds; failed files stop the queue
+instead of endlessly skipping. Handle termination cannot distinguish every
+interruption from a natural ending. Required audio APIs are checked before playback.
+No audio is bundled/downloaded, no addon dependencies and no addon network requests.
 
-## Test status and known limits
+## Install / upgrade
 
-- The owner confirmed that the Forever player runs and tested original music plays.
-- The 215 additional Forever candidates **still need in-game listening verification**.
-- Lua 5.1/5.4 mocked regression tests cover Favorites, alias preservation, search,
-  viewport behavior, playback failures and loading-screen recovery/cancellation.
-- Catalog tests check all original identities, reviewed duplicate mappings and variant safety.
-- These automated checks do not verify audible output or guarantee client compatibility.
-- Names/locations derive from community filenames and are provisional. Complete new-zone
-  coverage and installed-client manifest/zone-music-table membership have not been established.
-- Duplicate consolidation uses metadata identities, not audio fingerprints; different IDs
-  could be different encodes or arrangements. Original IDs are retained for those pairs.
-- A Playing label records an accepted request, not independent confirmation of audible sound.
-- Recovery restarts a file; there is no exact-position resume, seeking, duration/progress display,
-  play-once guarantee or addon-managed repetition timer.
+1. Stop MusicSCAN, then fully exit Forever. Back up your existing addon folder.
+2. Download **MusicSCAN-0.8.0-forever-beta.1.zip**, the installable release asset,
+   from [GitHub Releases](https://github.com/Scandallisk/MusicSCAN-Forever/releases/tag/v0.8.0-forever-beta.1)
+   or the [CurseForge Files tab](https://www.curseforge.com/wow/addons/musicscan-forever/files/all)
+   when the beta is approved. CurseForge users may need the Beta files filter.
+3. Replace **MusicSCAN/** under your Forever client's **Interface/AddOns/**,
+   so MusicSCAN.toc is directly inside MusicSCAN, without an extra nested folder.
+   Keep the folder name MusicSCAN and preserve WTF/SavedVariables.
+4. Fully restart Forever to discover the two new modules. Enable **MusicSCAN Forever**.
+5. Open **/msc**, **/musicscan**, or the minimap button. Use **/msc reset** for the
+   new 760x560 default window (minimum 620x460); valid saved layout remains supported.
 
-## Feedback
+Choose a library and track, then Play. A selected track outside the current
+library/search queues that selection alone. Next always advances. Repeat affects
+the active track; Favorites affect the highlighted row. Stop restores zone music.
+Rollback: fully exit Forever, move the beta folder aside and restore your backup;
+preserve SavedVariables. This package targets Forever; Retail has its own package.
 
-Report silent tracks, wrong locations, duplicates or Lua errors through
-[GitHub Issues](https://github.com/Scandallisk/MusicSCAN-Forever/issues).
-Include the client build, displayed title/location, tooltip **FileDataID**, exact Lua error,
-and reproduction steps. For recovery issues, include the travel route and whether Stop/Play
-was pressed during the transition. Do not attach account details or your full SavedVariables file.
+| Command (/msc or /musicscan) | Action |
+| --- | --- |
+| no argument | Open/close player |
+| play | Play highlighted track and capture queue |
+| stop | Stop and restore normal zone music |
+| next | Advance/wrap the queue |
+| repeat | Toggle repeating active track |
+| status | Show playback and queue status |
+| restore | Stop and retry pending Music Volume restoration |
+| reset | Restore default window/minimap layout |
+| help | Show commands |
 
-## Integrity and rights
+## Testing and catalog limits
 
-`SHA256SUMS.txt` contains the installable ZIP's checksum. The ZIP contains eight files
-under one MusicSCAN folder, with no developer tools, personal settings or bundled music.
+The owner confirmed **Next, Repeat and themed playlists work in Forever** on this
+local build and authorized this beta publication. Retail's POC3 had separately
+confirmed automatic progression, zone suppression and Stop restoration.
+Mocked Lua 5.1/5.4 tests (with and without a Monk class color) pass for the 415-row
+catalog, all 155 alias migrations, unique theme membership, bounded native UI row
+reuse, frozen/search queues, Next/Repeat, loading cancellation, missing APIs,
+startup timeout, errors, restoration retry and logout. Four Python catalog tests
+also pass. These are not exhaustive listening, travel or client-build tests; the
+latest Forever report did not separately confirm every audio/transition scenario.
 
-**SCAN | Kilobytes Development** — [kilobytes.dev/musicscan](https://kilobytes.dev/musicscan/#forever)
-**All Rights Reserved.** Personal installation/local modification per LICENSE.txt;
-public source availability does not grant an open-source license. Blizzard audio and
-third-party metadata retain their respective rights. No addon dependencies or audio downloads.
+All 200 original records and 215 additional Forever-folder candidates are retained.
+Additional IDs have not all been audibly verified. Zone/title associations remain
+provisional; no complete zone coverage or client-manifest/zone-table validation is
+claimed. Themes are reviewed zone/filename associations rather than exhaustive
+official playlists. Unknown locations remain in All Music. Overlapping themes
+reference existing canonical records rather than adding duplicate catalog entries.
+
+## Feedback and rights
+
+[Report issues](https://github.com/Scandallisk/MusicSCAN-Forever/issues) with track
+title, location, FileDataID, client build, exact Lua error and reproduction steps.
+For queue issues include library/search/Repeat state; for recovery include travel
+route. Do not attach account details or full SavedVariables files.
+
+SCAN | Kilobytes Development · https://kilobytes.dev/musicscan/
+All Rights Reserved; personal installation/local modification per LICENSE.txt.
+Blizzard audio and third-party metadata retain their rights. Public source does
+not grant an open-source license.

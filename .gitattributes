@@ -7,3 +7,4 @@
 *.txt text eol=lf
 *.yml text eol=lf
 *.csv text eol=crlf
+catalog/THEME-AUDIT.csv text eol=lf

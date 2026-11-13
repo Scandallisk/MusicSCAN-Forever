@@ -1,0 +1,73 @@
+{
+  "Cities": {
+    "zones": [
+      "Dalaran",
+      "Darnassus",
+      "Ironforge",
+      "Orgrimmar",
+      "Stormwind",
+      "Thunder Bluff",
+      "Undercity"
+    ],
+    "tokens": []
+  },
+  "Forests": {
+    "zones": [
+      "Shared Landscapes: Dark Forest",
+      "Shared Landscapes: Enchanted Forest",
+      "Shared Landscapes: Forest",
+      "Shared Landscapes: Jungle",
+      "Stranglethorn Vale",
+      "Shadowgale Forest",
+      "Hyjal"
+    ],
+    "tokens": [
+      "_druid_grove"
+    ]
+  },
+  "Taverns": {
+    "zones": [
+      "Dwarven Taverns",
+      "Horde Taverns",
+      "Human Taverns",
+      "Night Elf Taverns",
+      "Orcish Taverns",
+      "Pirate Taverns",
+      "Tauren Taverns",
+      "Undead Taverns"
+    ],
+    "tokens": [
+      "tavern"
+    ]
+  },
+  "PvP": {
+    "zones": [
+      "Battlegrounds"
+    ],
+    "tokens": []
+  },
+  "Dungeons": {
+    "zones": [
+      "Dungeons: Alpine",
+      "Dungeons: Battle Boss",
+      "Dungeons: Forest",
+      "Dungeons: Horror",
+      "Dungeons: Ruins",
+      "Dungeons: Underground Percussive",
+      "Dungeons: Wetlands"
+    ],
+    "tokens": [
+      "gnomeragon"
+    ]
+  },
+  "Raids": {
+    "zones": [
+      "Ahn'Qiraj",
+      "Naxxramas"
+    ],
+    "tokens": [
+      "zulaman",
+      "zulgurub"
+    ]
+  }
+}

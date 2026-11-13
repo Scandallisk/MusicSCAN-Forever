@@ -1,8 +1,8 @@
 ## Interface: 16001
 ## Title: MusicSCAN Forever
-## Notes: Listen your way with MusicSCAN. A minimalist player for built-in WoW music.
+## Notes: Forever BETA: themed libraries, automatic Next and Repeat Track.
 ## Author: SCAN | Kilobytes Development
-## Version: 0.7.1-forever-beta.1
+## Version: 0.8.0-forever-beta.1
 ## SavedVariables: MusicSCANDB
 ## IconTexture: Interface\Icons\inv_holiday_brewfestbuff_01
 ## X-Website: https://kilobytes.dev/musicscan/
@@ -10,5 +10,7 @@
 ## X-ReleaseType: Beta
 
 Database.lua
+Themes.lua
 MusicSCAN.lua
+Playback.lua
 UI.lua

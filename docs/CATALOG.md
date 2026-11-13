@@ -46,3 +46,9 @@ Valid saved Favorite IDs survive removal from this target. Do not delete user Sa
 Forever-folder IDs that reference older location names are distinct from the removed
 Retail expansion records. Shared installation storage alone is not proof that an asset
 belongs to the Forever client. Compare the specific build manifest before claiming availability.
+
+## Theme views
+
+Run `python tools/build_themes.py` offline, or add `--check` to validate runtime
+membership against the tracked Forever CSV and reviewed tools/theme-rules.json.
+Membership is an additional view; do not regenerate/import the Retail catalog.
