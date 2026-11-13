@@ -1,5 +1,16 @@
 # MusicSCAN Forever history
 
+## 0.8.0-forever-beta.1 — Playback queues and themed library
+- Add automatic Next, an immediate Next button and a Repeat toggle.
+- Add the independently scrolling split-screen library and six themed views.
+- Retain all 415 canonical records and 155 saved-track aliases.
+- Capture the library/search queue on Play; browsing and Favorite edits preserve it.
+- Route selected music through Master Volume and temporarily suppress Music Volume,
+  with restoration on Stop, failures, loading suspension and logout/reload.
+- Owner confirmed Next, Repeat and themed playlists work in Forever.
+- Publish the installable GitHub beta, checksum and release notes; submit the same
+  package to CurseForge. Full catalog listening and transition validation continue.
+
 ## 0.7.1-forever-beta.1 — First public beta candidate
 - Promote the audited alpha.3 runtime/catalog without playback or catalog-membership changes.
 - Identify the package as MusicSCAN Forever in the AddOns list; folder and SavedVariables stay unchanged.
