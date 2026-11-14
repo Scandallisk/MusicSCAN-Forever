@@ -1,90 +1,85 @@
-# MusicSCAN Forever 0.8.0 BETA1 — client test plan
+# MusicSCAN Forever 0.8.0 BETA1 — HOTFIX 1
 
-Version: 0.8.0-forever-beta.1. Target: Forever 1.60.1.70888, interface 16001.
-The owner confirmed Next, Repeat and themed playlists work in Forever.
-The following checklist supports wider beta testing; remaining scenarios are not assumed verified.
+**Tab out without the track skipping. Keep chat quiet by default.**
 
-## Changes
+Version **0.8.0-forever-beta.1-hotfix.1** · Target **Forever 1.60.1.70888 / interface 16001**
 
-- Retail's tested sound-handle playback engine, automatic Next and Repeat toggle.
-- Split library sidebar/track pane, independently scrolling.
-- All Music, Favorites, six themed playlists and the single Forever category.
-- Cities 43; Forests 44; Taverns 42; PvP 16; Dungeons 30; Raids 57.
-- All 415 records and all 155 canonical-key/FileDataID aliases retained unchanged.
-- Play captures the current ordered library/search results. Browsing and Favorite
-  edits leave that queue unchanged. Next advances and wraps even with Repeat ON.
-- Repeat ON repeats the active track; OFF automatically advances through the queue.
-- Repeat/loading recovery retain an independently highlighted selection. Favorites
-  target the highlighted row. Login/reload stay idle; closing the window keeps playback.
+## Fixed
 
-## Audio behavior
+- Background audio suppression could look like a completed track and cause false
+  automatic Next or Repeat requests when tabbing out. Play now temporarily enables
+  **Sound in Background** automatically; no menu change is required to use MusicSCAN.
+- The previous background-audio preference is retained across the queue and restored
+  on Stop, failure, loading suspension and logout/reload. Loading recovery reacquires it.
+- Routine playback, completion, loading, initialization and diagnostic/error chat logs
+  are now behind **debug mode, OFF by default**. Internal diagnostic history stays bounded.
+- A rapid-restart safety cutoff stops repeated interruptions instead of flooding chat
+  or endlessly restarting tracks. Two automatic starts within two seconds stop safely;
+  this can also stop unusually short consecutive tracks. No guessed song durations.
 
-Selected music follows **Master Volume**. MusicSCAN temporarily sets only **Music
-Volume** to zero to suppress normal zone music, retaining its previous value.
-Stop, failure, logout/reload and loading suspension restore it; loading recovery
-reacquires suppression. Music-slider changes made during playback are respected
-on Stop. Raising Music Volume during playback can make zone music audible again.
-Use **/msc restore** to stop and retry pending restoration. After a hard crash,
-restore Music Volume manually in Audio settings if necessary.
+## Audio settings and debug controls
 
-Uses PlaySoundFile FileDataIDs on Master, C_Sound.IsPlaying and a 0.2s watcher only
-during playback. No guessed durations. Never-observed handles time out after 30s;
-failed files stop the queue rather than endlessly skipping. Handle termination
-cannot distinguish every interruption from a natural ending. Missing required
-audio APIs produce a safe diagnostic. The latest Forever report confirms Next,
-Repeat and themes; broader audio/loading validation remains on this checklist.
+Selected music continues to follow **Master Volume**. MusicSCAN temporarily sets
+**Music Volume** to zero to suppress normal zone music, and restores its previous
+value on Stop. Enabling background audio also allows other enabled game sounds
+while tabbed out. Explicit Music-slider changes are respected on Stop. Turning
+Sound in Background OFF during playback stops the queue and leaves that preference OFF.
 
-## Start testing
+Use **/msc restore** to stop and retry pending audio-setting restoration. Saved
+restoration markers support reload cleanup. If a hard crash prevents cleanup,
+check both Music Volume and Sound in Background manually in WoW Audio settings.
 
-1. Fully restart Forever after the addon files are installed; new Lua modules need
-   a restart to be discovered. Enable **MusicSCAN Forever** in the AddOns list.
-2. Open **/msc**. Use **/msc reset** for the new 760x560 default layout (minimum
-   620x460); saved valid geometry/Favorites/selections are retained.
-3. Select **Cities**, clear search, highlight **Darnassus Introduction**, then Play.
-   Confirm only the chosen music is audible and Master Volume controls it.
-4. With Repeat OFF, listen for **Darnassus Walking (Variation 1)** after the intro.
-   Click Next to advance immediately; Repeat ON should repeat the active track.
-   Next must still advance with Repeat ON. To test wrap quickly, star two tracks,
-   use Favorites, then Play and press Next through both tracks.
-5. Stop must restore your previous Music Volume and zone music. Browse/search or
-   edit Favorites while playing; the active captured queue should remain unchanged.
-6. Play A, highlight B, then cross a loading screen. A should restart, B stay
-   highlighted, and there should be no skip caused by loading. Stop during recovery
-   must cancel it. Login/reload must not autoplay.
-7. Try the six theme views and Favorites, resizing, minimap dragging and scrolling.
-   New Forever-folder entries remain candidates: report silent/mislabeled files.
+- **/msc debug on** — enable chat diagnostic logs.
+- **/msc debug off** — disable them (default).
+- **/msc debug** — report the current logging setting.
+- **/msc status** and **/msc help** — display requested information even with debug OFF.
 
-Commands: /msc (or /musicscan), play, stop, next, repeat, status, restore, reset, help.
-If the highlighted track is outside the active library/search, Play queues only that
-selection. Library headings/folds do not remove records from a captured queue.
+The debug preference persists across reloads. Errors are also quiet while debug is
+OFF; use status or temporarily enable debug when reporting a playback problem.
 
-## Catalog and validation limits
+## Install / upgrade
 
-Database.lua is byte-identical to the existing Forever beta, including duplicate
-aliases. No Retail expansion catalog was imported. Theme views reference canonical
-keys; a record may appear in several views without creating duplicate records.
-Reviewed zone/filename associations are not exhaustive official playlists. Dalaran,
-Hyjal and other filename associations retain the existing catalog's provisional
-status. Generic/unknown locations remain in All Music. Gnomeragon is classified
-under Dungeons rather than inferred to be a major city from its source folder.
+1. Stop MusicSCAN and fully exit the appropriate Warcraft client. Back up the addon.
+2. Download **MusicSCAN-0.8.0-forever-beta.1-hotfix.1.zip**, the installable asset from
+   [this GitHub release](https://github.com/Scandallisk/MusicSCAN-Forever/releases/tag/v0.8.0-forever-beta.1-hotfix.1)
+   or the corresponding CurseForge beta once approved. Do not use GitHub's source archive.
+3. Replace **MusicSCAN/** under the client's **Interface/AddOns/** so MusicSCAN.toc
+   is directly inside it. Keep the folder name and preserve WTF/SavedVariables.
+4. Restart the client, open **/msc** and press Play. No background-audio menu setup
+   is required. Use **/msc reset** if you want the 760x560 default layout (minimum620x460).
 
-The existing 200 original tracks and 215 additional Forever-folder candidates are
-retained. Additional IDs have not all been audibly verified; no new claim of full
-zone coverage or a client-manifest/zone-table join is made.
+This package is for **Forever**; use the separate package for the other edition.
+The footer version-label cleanup is reserved for a future major release.
 
-Mocked Lua 5.1/5.4 integration tests, with/without a Monk color, cover the unchanged
-catalog, all 155 alias migrations, theme uniqueness, bounded native row reuse,
-frozen/search queues, Next/Repeat, loading cancellation, missing audio APIs, startup
-timeout, errors, pending-volume retry and logout. Four Python catalog-audit tests
-also pass. Mocks do not validate native rendering or audible playback; the owner separately
-confirmed Next, Repeat and themed playlists in-game.
+## Existing 0.8 features retained
 
-## Installation / rollback
+The split-screen library, six themed views (Cities, Forests, Taverns, PvP, Dungeons
+and Raids), Favorites, Next and Repeat remain. All **415 catalog entries** are
+unchanged. Play captures the current ordered library/search queue; browsing and
+Favorite edits leave it unchanged. Next always advances and wraps, even with Repeat
+ON. Repeat ON repeats the active track; OFF advances. A selection outside the view
+plays alone. Loading recovery restarts the active track; login/reload never autoplay.
+Closing the window keeps playback running. No bundled audio, downloads or addon dependencies.
 
-Install only MusicSCAN/ inside the Forever client's Interface/AddOns/ so that
-MusicSCAN.toc is directly inside it. Preserve WTF/SavedVariables and the folder
-name MusicSCAN. Retail is a separate installation. No audio is bundled or downloaded.
+## Validation and limits
 
-For rollback: fully exit Forever, move the beta folder aside and restore your
-previous addon backup. Preserve SavedVariables. Restore Music Volume manually if
-needed after a crash. See RELEASE-NOTES.md for the current public beta details.
+The owner confirmed the automatic-background-audio local build resolved the reported
+tab-out behavior in Forever, and confirmed Stop restores the prior Sound in Background
+setting. The same implementation is included in Retail; this is not a separate native
+Retail tab-out confirmation. Quiet-mode changes passed mocked tests but have not been
+separately reported tested in-game by the owner.
+
+Lua 5.1/5.4 checks cover background setting ownership, queue continuity, restoration,
+failed enable/start/restore, saved-marker reload cleanup, loading/logout, explicit
+player changes, quiet defaults and persistent debug mode. Existing catalog, Favorites,
+queue and transition checks pass. These are not exhaustive listening or travel tests.
+Other sound interruptions can still resemble completion. Filename/zone associations
+and additional Forever candidates retain their existing provisional status.
+
+[Report issues](https://github.com/Scandallisk/MusicSCAN-Forever/issues) with track title,
+FileDataID, client build, exact error and steps; include debug/status output when
+appropriate. Avoid account details or full SavedVariables files.
+
+SCAN | Kilobytes Development · https://kilobytes.dev/musicscan/
+All Rights Reserved; personal installation/local modification per LICENSE.txt.
+Blizzard audio and third-party metadata retain their rights.
